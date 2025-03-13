@@ -14,7 +14,7 @@ const Projekt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-96 -mt-1"></div>
+      <div className="bg-secondary w-screen h-140 -mt-1"></div>
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-desktop w-full mx-auto relative">
           <div className="absolute top-28 grid grid-cols-2 gap-20">
