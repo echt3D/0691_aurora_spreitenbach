@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
   const navItems = ["Projekt", "Lage", "Kontakt"];
   return (
-    <header className=" h-header bg-white shadow-md w-full fixed top-0">
+    <header className=" h-header bg-white shadow-md w-full fixed top-0 z-20">
       <div className="max-w-desktop mx-auto h-full flex items-center justify-between">
         <Link href="/">
           <Image

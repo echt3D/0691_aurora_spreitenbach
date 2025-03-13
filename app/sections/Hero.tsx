@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className=" w-full h-screen flex">
+    <section className=" w-full h-screen flex bg-tertiary">
       <aside className="max-w-desktop_half mx-auto pt-header flex flex-col justify-center gap-8">
         <div className="text-primary ">
           <p className="text-h4_desktop">Willkommen</p>
@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
         </div>
       </aside>
-      <aside>
+      <aside className="relative z-10">
         <Image
           src="/images/main_visu.png"
           width={800}
