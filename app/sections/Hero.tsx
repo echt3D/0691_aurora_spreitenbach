@@ -12,7 +12,7 @@ const Hero = () => {
             auf dich!
           </h1>
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 leading-10">
           <p>
             Wenn das Morgenlicht den Horizont färbt, erwacht ein neues
             Wohngefühl. «Aurora» verbindet die Dynamik urbanen Lebens mit der

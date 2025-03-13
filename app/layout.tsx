@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="de-CH">
       <body
-        className={`w-screen h-screen text-text_primary text-body_desktop font-quicksand`}
+        className={`w-screen h-screen text-text_primary text-body_desktop font-quicksand `}
       >
         <Header />
         {children}

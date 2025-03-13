@@ -14,9 +14,10 @@ const Projekt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="absolute inset-0 flex justify-center red ">
-        <div className="max-w-desktop w-full mx-auto relative blue">
-          <div className="absolute top-36 grid grid-cols-2">
+      <div className="bg-secondary w-screen h-96 -mt-1"></div>
+      <div className="absolute inset-0 flex justify-center ">
+        <div className="max-w-desktop w-full mx-auto relative">
+          <div className="absolute top-28 grid grid-cols-2 gap-20">
             <aside className=" flex flex-col gap-8">
               <div>
                 <p className="text-h4_desktop">Projekt</p>
@@ -30,7 +31,7 @@ const Projekt = () => {
                 </h2>
               </div>
               <div>
-                <p>
+                <p className="leading-10">
                   Inmitten der Veränderung bewahrt das Projekt Vergangenes und
                   vereint es mit zeitgemässem Wohnkomfort. Das markante Hochhaus
                   an der Bahnhofstrasse 59 erstrahlt in frischer Architektur,
@@ -40,8 +41,14 @@ const Projekt = () => {
                   hier findet jede Lebensform Raum zum Entfalten.
                 </p>
               </div>
+              <a
+                href="#lage"
+                className="bg-primary w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300"
+              >
+                Weiter zur Lage
+              </a>
             </aside>
-            <aside>
+            <aside className="flex flex-col gap-8">
               <Button />
               <Coverflow />
             </aside>
