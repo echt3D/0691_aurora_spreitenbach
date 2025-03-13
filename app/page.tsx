@@ -1,4 +1,5 @@
 import Hero from "./sections/Hero";
+import Projekt from "./sections/Projekt";
 export default function Home() {
   return (
     // <div className="w-screen h-screen border-red-500 border">
@@ -40,6 +41,7 @@ export default function Home() {
 
     <>
       <Hero />
+      <Projekt />
     </>
   );
 }

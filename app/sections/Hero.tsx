@@ -27,7 +27,7 @@ const Hero = () => {
       </aside>
       <aside>
         <Image
-          src="/hi.png"
+          src="/images/main_visu.png"
           width={800}
           height={1200}
           alt="aurora spreitenbach main visualisierung"
