@@ -7,12 +7,11 @@
   --color-accent: #8c3b1c;
   --color-text_primary: #353535;
 
-  --height-header: 125px;
-
   --spacing-desktop: 1300px;
   --spacing-desktop_half: 650px;
   --spacing-tablet: 700px;
   --spacing-mobile: 300px;
+  --spacing-header: 125px;
 
   --text-h1_desktop: 48px;
   --text-h2_desktop: 32px;
