@@ -22,7 +22,7 @@ const Projekt = () => {
               <div>
                 <p className="text-h4_desktop">Projekt</p>
                 <h2 className="text-h2_desktop">
-                  Raum für jede
+                  Raum für jede{" "}
                   <span className="bg-primary text-white px-2">
                     Lebensform:
                     <br />
