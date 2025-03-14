@@ -3,7 +3,7 @@ import Coverflow from "../components/Coverflow";
 
 const Projekt = () => {
   return (
-    <section className="relative">
+    <section id="Projekt" className="relative scroll-mt-header">
       <svg
         viewBox="0 0 1510 347"
         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ const Projekt = () => {
                 </p>
               </div>
               <a
-                href="#lage"
+                href="#Lage"
                 className="bg-primary w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300"
               >
                 Weiter zur Lage

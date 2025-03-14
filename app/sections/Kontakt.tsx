@@ -3,7 +3,7 @@ import Form from "../components/Form";
 
 const Kontakt = () => {
   return (
-    <section className="relative">
+    <section id="Kontakt" className="relative  scroll-mt-header">
       <svg
         viewBox="0 0 1510 347"
         xmlns="http://www.w3.org/2000/svg"

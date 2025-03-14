@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { scrollToTop } from "../utils/scrollToTop";
 
 const Footer = () => {
   return (
@@ -15,12 +17,14 @@ const Footer = () => {
             height={61}
             alt="aurora Spreitenbach white logo"
           />
+
           <Image
             src="/icons/arrow.svg"
             width={28}
             height={28}
             alt="back to the top icon"
-            className="rotate-90"
+            className="rotate-90 cursor-pointer"
+            onClick={() => scrollToTop()}
           />
         </div>
         <div className="flex justify-between items-end">
