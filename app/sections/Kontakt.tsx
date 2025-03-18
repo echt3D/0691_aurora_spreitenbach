@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Form from "../components/Form";
 
-
 const Kontakt = () => {
   return (
     <section id="Kontakt" className="relative  scroll-mt-header">
@@ -15,11 +14,11 @@ const Kontakt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-240 -mt-1"></div>
+      <div className="bg-secondary w-screen h-240 3xl:h-200 -mt-1"></div>
 
       <div className="absolute inset-0 flex justify-center ">
-        <div className="max-w-desktop w-full mx-auto relative flex flex-col gap-8 red">
-          <div className="pt-28 grid grid-cols-2 gap-20 ">
+        <div className="max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative flex flex-col gap-16">
+          <div className="pt-28 3xl:pt-40 grid grid-cols-2 gap-20 ">
             <aside className=" flex flex-col gap-8 pt-32">
               <div>
                 <p className="text-h4_desktop">Kontakt</p>

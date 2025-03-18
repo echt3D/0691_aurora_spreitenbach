@@ -7,7 +7,7 @@ const Header = () => {
   const navItems = ["Projekt", "Lage", "Kontakt"];
   return (
     <header className=" h-header bg-white shadow-md w-full fixed top-0 z-30">
-      <div className="max-w-desktop mx-auto h-full flex items-center justify-between">
+      <div className="max-w-desktop 3xl:max-w-desktop-xl mx-auto h-full flex items-center justify-between">
         <Image
           src="/logos/logo.svg"
           width={263}

@@ -3,7 +3,7 @@ import Coverflow from "../components/Coverflow";
 
 const Projekt = () => {
   return (
-    <section id="Projekt" className="relative scroll-mt-header red">
+    <section id="Projekt" className="relative scroll-mt-header">
       <svg
         viewBox="0 0 1510 347"
         xmlns="http://www.w3.org/2000/svg"
@@ -14,10 +14,10 @@ const Projekt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-140 -mt-1"></div>
+      <div className="bg-secondary w-screen h-140 3xl:h-110 -mt-1"></div>
       <div className="absolute inset-0 flex justify-center ">
-        <div className="max-w-desktop w-full mx-auto relative">
-          <div className="absolute top-28 grid grid-cols-2 gap-20">
+        <div className="max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
+          <div className="absolute top-28 3xl:top-44 grid grid-cols-2 gap-20">
             <aside className=" flex flex-col gap-8">
               <div>
                 <p className="text-h4_desktop">Projekt</p>

@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer
       style={{ backgroundImage: "url(/assets/footer.svg)" }}
-      className="w-screen h-120 bg-cover -mt-44 relative z-20 text-white "
+      className="w-full  bg-cover -mt-44 relative z-20 text-white "
     >
-      <div className="py-20 h-full max-w-desktop mx-auto flex flex-col justify-between">
+      <div className="container px-4 py-20 3xl:py-32 h-full max-w-desktop 3xl:max-w-desktop-xl  mx-auto flex flex-col justify-between">
         <div className="flex justify-between">
           <Image
             src="/logos/logo_white.svg"

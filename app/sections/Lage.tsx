@@ -3,7 +3,7 @@ import CoverflowTwo from "../components/CoverflowTwo";
 const Lage = () => {
   return (
     <section id="Lage" className="bg-tertiary pt-60 -mt-40  scroll-mt-header">
-      <div className="max-w-desktop mx-auto grid grid-cols-2 gap-20">
+      <div className="max-w-desktop 3xl:max-w-desktop-xl mx-auto grid grid-cols-2 gap-20">
         <CoverflowTwo />
         <aside className="text-right flex flex-col gap-8 items-end ">
           <div>
