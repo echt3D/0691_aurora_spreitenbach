@@ -11,16 +11,15 @@ const Footer = () => {
     >
       <div className="container px-4 py-16 xl:py-20 3xl:py-32 h-full max-w-desktop 3xl:max-w-desktop-xl  mx-auto flex flex-col justify-between gap-8">
         <div className="flex justify-between">
-         <div className="relative w-[180px] h-[56px] xl:w-[263px] xl:h-[60px]">
-                  <Image
-                    src="/logos/logo_white.svg"
-                    layout="fill"
-                    alt="Aurora Logo"
-                    onClick={() => scrollToTop()}
-                    className="cursor-pointer"
-                  />
-                </div>
-        
+          <div className="relative w-[180px] h-[56px] xl:w-[263px] xl:h-[60px]">
+            <Image
+              src="/logos/logo_white.svg"
+              layout="fill"
+              alt="Aurora Logo"
+              onClick={() => scrollToTop()}
+              className="cursor-pointer"
+            />
+          </div>
 
           <Image
             src="/icons/arrow.svg"
@@ -50,12 +49,13 @@ const Footer = () => {
           </div>
           <div className="flex gap-12">
             <p className="hidden xl:block">Copyright 2025</p>
-            <Link href="" className="underline hover:text-primary duration-300">
-              Impressum
+            <Link
+              href="/impressum-datenschutz"
+              className="underline hover:text-primary duration-300"
+            >
+              Impressum / Datenschutz
             </Link>
-            <Link href="" className="underline hover:text-primary duration-300">
-              Cookies
-            </Link>
+           
           </div>
           <p className="block xl:hidden">Copyright 2025</p>
         </div>
