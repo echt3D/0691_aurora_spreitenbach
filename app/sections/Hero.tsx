@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="w-full xl:h-screen flex flex-col-reverse xl:flex-row bg-tertiary">
-      <aside className="max-w-mobile xl:max-w-desktop_half mx-auto xl:pt-header flex flex-col justify-center gap-8 py-8 xl:py-0">
+      <aside className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half mx-auto xl:pt-header flex flex-col justify-center gap-8 py-8 xl:py-0">
         <div className="text-primary ">
           <p className="text-h4_mobile xl:text-h4_desktop">Willkommen</p>
           <h1
@@ -31,8 +31,8 @@ const Hero = () => {
           </p>
         </div>
       </aside>
-      <aside className="z-10">
-        <div className="relative w-screen h-[485px] md:w-[80vw] lg:w-[70vw] xl:w-[60vw] 2xl:w-[40vw] max-w-7xl mx-auto md:h-auto aspect-[2/3]">
+      <aside className="z-10  flex justify-end">
+        <div className="relative w-screen h-[485px] lg:w-[90vw] xl:w-[60vw] 2xl:w-[40vw] xl:max-w-7xl xl:mx-auto md:h-auto aspect-[2/3]">
           <Image
             src="/images/main_visu.png"
             fill

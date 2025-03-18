@@ -10,7 +10,7 @@ const Header = () => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
 
   return (
-    <header className="h-header_mobile xl:h-header bg-white shadow-md w-screen fixed top-0 z-30">
+    <header className="h-header_mobile md:h-header bg-white shadow-md w-screen fixed top-0 z-30">
       <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl mx-auto h-full flex items-center justify-between ">
         <div className="relative w-[180px] h-[56px] xl:w-[263px] xl:h-[60px]">
           <Link href="/">

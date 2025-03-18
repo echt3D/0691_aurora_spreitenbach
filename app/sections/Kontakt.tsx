@@ -14,7 +14,7 @@ const Kontakt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-480 xl:h-240 3xl:h-200 -mt-1"></div>
+      <div className="bg-secondary w-screen h-480 md:h-360 xl:h-240 3xl:h-200 -mt-1"></div>
 
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative flex flex-col gap-16">
