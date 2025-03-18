@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="de-CH" className="scroll-smooth">
       <body
-        className={`w-screen h-screen text-text_primary text-body_desktop font-quicksand `}
+        className={`w-screen h-screen text-text_primary text-body_mobile xl:text-body_desktop font-quicksand `}
       >
         <Header />
         {children}

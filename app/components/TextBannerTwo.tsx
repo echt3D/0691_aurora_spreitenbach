@@ -26,8 +26,8 @@ const TextBannerTwo = () => {
       </div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-4">
         <p className="text-white text-h2_mobile xl:text-h2_desktop text-center">
-          «Hier, wo Horizonte wachsen,
-          <br /> beginnt deine Zukunft.»
+          «Wenn die Lichter der Stadt glänzen,
+          <br /> spiegelt sich darin Geborgenheit.»
         </p>
       </div>
     </div>

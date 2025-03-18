@@ -11,20 +11,23 @@ const Lage = () => {
           </span>
         </div>
         <CoverflowTwo />
-        <aside className="text-right flex flex-col gap-8 items-end ">
+        <aside className="text-right flex flex-col gap-8 items-end">
           <div className="hidden xl:block">
-            <p className="text-h4_desktop">Lage</p>
-            <span className="text-h2_desktop bg-primary text-white px-2">
+            <p className="text-h4_mobile xl:text-h4_desktop">Lage</p>
+            <span className="text-h2_mobile xl:text-h2_desktop bg-primary text-white px-2">
               Spreitenbach
             </span>
           </div>
           <p className="leading-10">
             Spreitenbach wächst – und damit die Möglichkeiten. Das
-            Langäckerquartier vereint modernes Wohnen mit natürlicher Erholung.
+            Langäckerquartier vereint einfaches Wohnen mit natürlicher Erholung.
             Ob entspannen in den Bädern, shoppen in modernen Zentren, aktiv sein
-            im Golfpark oder treffen im Kino – die Lage bietet Vielfalt
+            im Golfpark oder treffen im Kino – die Lage bietet Vielfalt. 
           </p>
-          <p>Wer das Geborgene und Spannende sucht, findet es hier. </p>
+          <p>
+            Wer das Beste aus beiden Welten sucht – lebendig und entspannt –,
+            findet es hier.  
+          </p>
           <a
             className="bg-primary xl:w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300"
             target="_blank"

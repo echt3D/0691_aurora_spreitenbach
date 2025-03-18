@@ -5,9 +5,13 @@ const Hero = () => {
     <section className="w-full xl:h-screen flex flex-col-reverse xl:flex-row bg-tertiary">
       <aside className="max-w-mobile xl:max-w-desktop_half mx-auto xl:pt-header flex flex-col justify-center gap-8 py-8 xl:py-0">
         <div className="text-primary ">
-          <p className="text-h4_desktop">Willkommen</p>
-          <h1 className="text-h1_desktop leading-13 hyphens-auto" lang="de">
+          <p className="text-h4_mobile xl:text-h4_desktop">Willkommen</p>
+          <h1
+            className="text-h1_mobile xl:text-h1_desktop leading-13 hyphens-auto"
+            lang="de"
+          >
             Dein geborgenes 
+            <br />
             <span className="bg-primary text-white px-2">Zuhause</span> wartet
             auf dich!
           </h1>

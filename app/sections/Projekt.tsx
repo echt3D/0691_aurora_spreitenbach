@@ -14,14 +14,17 @@ const Projekt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-350 xl:h-140 3xl:h-110 -mt-1"></div>
+      <div className="bg-secondary w-screen h-300 xl:h-140 3xl:h-110 -mt-1"></div>
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
-          <div className="absolute top-28 3xl:top-44 xl:grid xl:grid-cols-2 gap-20">
-            <aside className=" flex flex-col gap-8">
+          <div className="absolute top-20 3xl:top-44 xl:grid xl:grid-cols-2 gap-20">
+            <aside className=" flex flex-col  xl:gap-8">
               <div>
-                <p className="text-h4_desktop">Projekt</p>
-                <h2 className="text-h2_desktop hyphens-auto" lang="de">
+                <p className="text-h4_mobile xl:text-h4_desktop">Projekt</p>
+                <h2
+                  className="text-h2_mobile xl:text-h2_desktop hyphens-auto"
+                  lang="de"
+                >
                   Raum für jede{" "}
                   <span className="bg-primary text-white px-2">
                     Lebensform:
@@ -34,11 +37,14 @@ const Projekt = () => {
                 <p className="leading-10">
                   Inmitten der Veränderung bewahrt das Projekt Vergangenes und
                   vereint es mit zeitgemässem Wohnkomfort. Das markante Hochhaus
-                  an der Bahnhofstrasse 59 erstrahlt in frischer Architektur,
-                  mit hochwertig sanierten Wohnungen, modernen Küchen und
-                  stilvollen Materialien. Für alle, die das Besondere suchen: ob
-                  Stadtmensch oder Naturliebhaber, Familie oder Individualist –
-                  hier findet jede Lebensform Raum zum Entfalten.
+                  an der Bahnhofstrasse 59 besticht durch schlicht sanierte
+                  Wohnungen, einfache Küchen und helle Farben. Grosse Balkone,
+                  gut geschnittene Grundrisse und faire Mietpreise sind weitere
+                  Vorzüge der 2- bis 4-Zimmer-Wohnungen. Ob Stadtmensch oder
+                  Naturliebhaber, Familie oder Individualist – hier findet jede
+                  Lebensform Raum zum Entfalten. Bezugstermine sind ab dem{" "}
+                  <span className="font-bold">1. November / 1. Dezember </span>{" "}
+                  möglich. 
                 </p>
               </div>
               <a
