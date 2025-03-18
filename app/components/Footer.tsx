@@ -9,7 +9,7 @@ const Footer = () => {
       style={{ backgroundImage: "url(/assets/footer.svg)" }}
       className="w-full  bg-cover -mt-44 relative z-20 text-white "
     >
-      <div className="container px-4 py-20 3xl:py-32 h-full max-w-desktop 3xl:max-w-desktop-xl  mx-auto flex flex-col justify-between">
+      <div className="container px-4 py-20 3xl:py-32 h-full max-w-desktop 3xl:max-w-desktop-xl  mx-auto flex flex-col justify-between gap-8">
         <div className="flex justify-between">
           <Image
             src="/logos/logo_white.svg"
@@ -27,7 +27,7 @@ const Footer = () => {
             onClick={() => scrollToTop()}
           />
         </div>
-        <div className="flex justify-between items-end">
+        <div className="flex flex-col xl:flex-row xl:justify-between xl:items-end gap-4">
           <div className="flex flex-col gap-12">
             <div className="flex flex-col gap-1">
               <p className="font-bold">H&B Real Estate AG</p>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex gap-12">
-            <p>Copyright 2025</p>
+            <p className="hidden xl:block">Copyright 2025</p>
             <Link href="" className="underline hover:text-primary duration-300">
               Impressum
             </Link>
@@ -53,6 +53,7 @@ const Footer = () => {
               Cookies
             </Link>
           </div>
+          <p className="block xl:hidden">Copyright 2025</p>
         </div>
       </div>
     </footer>

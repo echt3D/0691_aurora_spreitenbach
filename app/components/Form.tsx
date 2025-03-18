@@ -62,7 +62,10 @@ const Form = () => {
   };
 
   return (
-    <form className="grid grid-cols-2 gap-12 w-full" onSubmit={handleSubmit}>
+    <form
+      className="xl:grid xl:grid-cols-2 flex flex-col gap-12 w-full"
+      onSubmit={handleSubmit}
+    >
       <div className="flex flex-col">
         <label htmlFor="firstname" className="font-bold">
           Vorname*
@@ -144,7 +147,7 @@ const Form = () => {
       <div className="col-span-2 flex justify-center">
         <button
           type="submit"
-          className={`w-1/4 bg-primary text-white py-2 px-4 rounded-3xl  flex justify-center items-center duration-300 cursor-pointer ${
+          className={`xl:w-1/4 bg-primary text-white py-2 px-4 rounded-3xl  flex justify-center items-center duration-300 cursor-pointer ${
             canSubmitForm()
               ? "hover:bg-accent opacity-100 pointer-events-auto"
               : "opacity-70 pointer-events-none"

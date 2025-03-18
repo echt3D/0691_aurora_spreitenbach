@@ -10,12 +10,11 @@
   /*ADD A NEW BREAKPOINT AND WIDEN THE SPACING*/
   --spacing-desktop-xl: 1600px;
   --spacing-desktop: 1300px;
-  --spacing-desktop-xl_half: 800px;
-
   --spacing-desktop_half: 580px;
   --spacing-tablet: 700px;
-  --spacing-mobile: 300px;
+  --spacing-mobile: 320px;
   --spacing-header: 125px;
+  --spacing-header_mobile: 70px;
   --spacing-button: 170px;
 
   --breakpoint-3xl: 110rem;
@@ -44,6 +43,19 @@
 
 .green {
   border: green solid 2px;
+}
+
+@keyframes menuSlideIn {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-menuSlideIn {
+  animation: menuSlideIn 0.5s ease-out forwards;
 }
 
 .coverflow {

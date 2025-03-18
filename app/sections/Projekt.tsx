@@ -14,14 +14,14 @@ const Projekt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-140 3xl:h-110 -mt-1"></div>
+      <div className="bg-secondary w-screen h-350 xl:h-140 3xl:h-110 -mt-1"></div>
       <div className="absolute inset-0 flex justify-center ">
-        <div className="max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
-          <div className="absolute top-28 3xl:top-44 grid grid-cols-2 gap-20">
+        <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
+          <div className="absolute top-28 3xl:top-44 xl:grid xl:grid-cols-2 gap-20">
             <aside className=" flex flex-col gap-8">
               <div>
                 <p className="text-h4_desktop">Projekt</p>
-                <h2 className="text-h2_desktop">
+                <h2 className="text-h2_desktop hyphens-auto" lang="de">
                   Raum für jede{" "}
                   <span className="bg-primary text-white px-2">
                     Lebensform:
@@ -30,7 +30,7 @@ const Projekt = () => {
                   stilvoll, zentral, zeitgemäss
                 </h2>
               </div>
-              <div>
+              <div className="hidden xl:block">
                 <p className="leading-10">
                   Inmitten der Veränderung bewahrt das Projekt Vergangenes und
                   vereint es mit zeitgemässem Wohnkomfort. Das markante Hochhaus
@@ -43,7 +43,7 @@ const Projekt = () => {
               </div>
               <a
                 href="#Lage"
-                className="bg-primary w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300"
+                className="bg-primary w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300 hidden xl:block "
               >
                 Weiter zur Lage
               </a>
@@ -51,6 +51,23 @@ const Projekt = () => {
             <aside className="flex flex-col gap-8">
               <Button />
               <Coverflow />
+              <div className="block xl:hidden">
+                <p className="leading-10">
+                  Inmitten der Veränderung bewahrt das Projekt Vergangenes und
+                  vereint es mit zeitgemässem Wohnkomfort. Das markante Hochhaus
+                  an der Bahnhofstrasse 59 erstrahlt in frischer Architektur,
+                  mit hochwertig sanierten Wohnungen, modernen Küchen und
+                  stilvollen Materialien. Für alle, die das Besondere suchen: ob
+                  Stadtmensch oder Naturliebhaber, Familie oder Individualist –
+                  hier findet jede Lebensform Raum zum Entfalten.
+                </p>
+              </div>
+              <a
+                href="#Lage"
+                className="bg-primary w-full xl:w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300 block xl:hidden "
+              >
+                Weiter zur Lage
+              </a>
             </aside>
           </div>
         </div>

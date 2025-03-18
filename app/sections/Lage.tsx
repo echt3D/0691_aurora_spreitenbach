@@ -3,10 +3,16 @@ import CoverflowTwo from "../components/CoverflowTwo";
 const Lage = () => {
   return (
     <section id="Lage" className="bg-tertiary pt-60 -mt-40  scroll-mt-header">
-      <div className="max-w-desktop 3xl:max-w-desktop-xl mx-auto grid grid-cols-2 gap-20">
+      <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl mx-auto xl:grid xl:grid-cols-2 flex flex-col gap-8 xl:gap-20">
+        <div className="flex xl:hidden flex-col items-end">
+          <p className="text-h4_desktop">Lage</p>
+          <span className="text-h2_desktop bg-primary text-white px-2">
+            Spreitenbach
+          </span>
+        </div>
         <CoverflowTwo />
         <aside className="text-right flex flex-col gap-8 items-end ">
-          <div>
+          <div className="hidden xl:block">
             <p className="text-h4_desktop">Lage</p>
             <span className="text-h2_desktop bg-primary text-white px-2">
               Spreitenbach
@@ -20,7 +26,7 @@ const Lage = () => {
           </p>
           <p>Wer das Geborgene und Spannende sucht, findet es hier. </p>
           <a
-            className="bg-primary w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300"
+            className="bg-primary xl:w-1/3 text-center rounded-3xl py-2 px-4 text-white hover:bg-accent duration-300"
             target="_blank"
             href="https://www.google.ch/maps/place/Bahnhofstrasse+59,+8957+Spreitenbach/@47.4233828,8.3600261,16z/data=!3m1!4b1!4m6!3m5!1s0x47901281e3e8e321:0x1ed7bd28893e524f!8m2!3d47.4233828!4d8.362601!16s%2Fg%2F11c1x985j5?entry=tts&g_ep=EgoyMDI1MDMwMi4wIPu8ASoASAFQAw%3D%3D"
           >

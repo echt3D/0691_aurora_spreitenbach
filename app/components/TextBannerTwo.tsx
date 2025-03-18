@@ -1,21 +1,33 @@
+import Image from "next/image";
 const TextBannerTwo = () => {
   return (
-    <div className="relative -mt-40 z-20">
-      <svg
-        viewBox="0 0 1476 489"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M0 87.4999V488.5C214.5 338.5 375.5 447 801.5 449C1142.3 450.6 1392.83 431.667 1475.5 422V7.5C1315 36.5 1178.5 42 971 46C763.5 50 720.5 26.5 452.5 3.49995C238.1 -14.9 61.5 51.8333 0 87.4999Z"
-          fill="#353535"
+    <div className="relative -mt-10 xl:-mt-40 z-20 overflow-hidden">
+      <div className="md:hidden">
+        {/* Mobile-specific SVG with adjusted viewBox for "zoomed in" effect */}
+        <Image
+          src="/assets/text-banner-mobile.svg"
+          width={400}
+          height={600}
+          alt="text banner mobile bg"
         />
-      </svg>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <p className="text-white text-h2_desktop text-center">
-          «Wenn die Lichter der Stadt glänzen,
-          <br />
-          spiegelt sich darin Geborgenheit.»
+      </div>
+      <div className="hidden md:block">
+        {/* Original SVG for larger screens */}
+        <svg
+          viewBox="0 0 1476 489"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 87.4999V488.5C214.5 338.5 375.5 447 801.5 449C1142.3 450.6 1392.83 431.667 1475.5 422V7.5C1315 36.5 1178.5 42 971 46C763.5 50 720.5 26.5 452.5 3.49995C238.1 -14.9 61.5 51.8333 0 87.4999Z"
+            fill="#353535"
+          />
+        </svg>
+      </div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-4">
+        <p className="text-white text-h2_mobile xl:text-h2_desktop text-center">
+          «Hier, wo Horizonte wachsen,
+          <br /> beginnt deine Zukunft.»
         </p>
       </div>
     </div>

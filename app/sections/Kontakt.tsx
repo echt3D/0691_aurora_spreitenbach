@@ -14,11 +14,11 @@ const Kontakt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-240 3xl:h-200 -mt-1"></div>
+      <div className="bg-secondary w-screen h-520 xl:h-240 3xl:h-200 -mt-1"></div>
 
       <div className="absolute inset-0 flex justify-center ">
-        <div className="max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative flex flex-col gap-16">
-          <div className="pt-28 3xl:pt-40 grid grid-cols-2 gap-20 ">
+        <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative flex flex-col gap-16">
+          <div className="xl:pt-28 3xl:pt-40 xl:grid xl:grid-cols-2 gap-20 ">
             <aside className=" flex flex-col gap-8 pt-32">
               <div>
                 <p className="text-h4_desktop">Kontakt</p>
@@ -43,7 +43,7 @@ const Kontakt = () => {
               </div>
             </aside>
 
-            <aside className="flex flex-col  items-end">
+            <aside className="flex flex-col items-center xl:items-end">
               <div className="relative w-[240px] h-[240px] ">
                 <Image
                   src="/images/noemi_nagel.jpeg"
@@ -52,7 +52,7 @@ const Kontakt = () => {
                   className="rounded-full object-cover"
                 />
               </div>
-              <div className="flex flex-col bg-white p-4 w-[286px] h-[208px] justify-center gap-2 rounded-3xl mr-40 -mt-20">
+              <div className="flex flex-col bg-white p-4 w-[286px] h-[208px] justify-center gap-2 rounded-3xl text-center xl:text-left xl:mr-40 -mt-4 xl:-mt-20">
                 <p className="text-h3_desktop text-accent">Ansprechsperson</p>
                 <p className="font-bold">Noemi Nagel</p>
                 <a href="mailto:wohnen@hbre.ch">wohnen@hbre.ch</a>
