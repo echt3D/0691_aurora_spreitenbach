@@ -25,13 +25,14 @@ const Hero = () => {
           </p>
         </div>
       </aside>
-      <aside className="relative z-10">
-        <Image
-          src="/images/main_visu.png"
-          width={800}
-          height={1200}
-          alt="aurora spreitenbach main visualisierung"
-        />
+      <aside className="z-10">
+        <div className="relative w-full md:w-[80vw] lg:w-[70vw] xl:w-[60vw] 2xl:w-[40vw] max-w-7xl mx-auto h-auto aspect-[2/3]">
+          <Image
+            src="/images/main_visu.png"
+            fill
+            alt="aurora spreitenbach main visualisierung"
+          />
+        </div>
       </aside>
     </section>
   );

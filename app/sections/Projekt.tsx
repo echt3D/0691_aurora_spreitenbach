@@ -3,7 +3,7 @@ import Coverflow from "../components/Coverflow";
 
 const Projekt = () => {
   return (
-    <section id="Projekt" className="relative scroll-mt-header">
+    <section id="Projekt" className="relative scroll-mt-header red">
       <svg
         viewBox="0 0 1510 347"
         xmlns="http://www.w3.org/2000/svg"

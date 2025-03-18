@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Form from "../components/Form";
 
+
 const Kontakt = () => {
   return (
     <section id="Kontakt" className="relative  scroll-mt-header">
