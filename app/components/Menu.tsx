@@ -10,7 +10,7 @@ const Menu = ({ openMenu, setOpenMenu }: MenuProps) => {
 
   return (
     <section
-      className={`relative w-full h-screen bg-white flex flex-col justify-between  pt-header ${
+      className={`relative w-full h-screen bg-white flex flex-col justify-between  pt-12 ${
         openMenu ? "animate-menuSlideIn z-20" : "hidden"
       }`}
     >
