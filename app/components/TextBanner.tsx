@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const TextBanner = () => {
   return (
-    <div className="relative -mt-12 xl:-mt-40 z-20 overflow-hidden">
+    <div className="relative -mt-12 md:-mt-12 xl:-mt-40 z-20 overflow-hidden">
       <div className="md:hidden">
         {/* Mobile-specific SVG with adjusted viewBox for "zoomed in" effect */}
         <Image
           src="/assets/text-banner-mobile.svg"
-          width={500}
+          width={600}
           height={600}
           alt="text banner mobile bg"
         />

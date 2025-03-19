@@ -14,15 +14,15 @@ const Projekt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-300 md:h-210 xl:h-140 3xl:h-110 -mt-1"></div>
+      <div className="bg-secondary w-screen h-300 md:h-260 xl:h-180 3xl:h-180 -mt-2"></div>
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
-          <div className="absolute top-20 md:top-32 3xl:top-44 xl:grid xl:grid-cols-2 gap-20">
+          <div className="absolute top-20 md:top-50 3xl:top-80 xl:grid xl:grid-cols-2 gap-20">
             <aside className=" flex flex-col  xl:gap-8">
               <div>
-                <p className="text-h4_mobile xl:text-h4_desktop">Projekt</p>
+                <p className="text-h4_mobile xl:text-h4_desktop font-medium">Projekt</p>
                 <h2
-                  className="text-h2_mobile xl:text-h2_desktop hyphens-auto"
+                  className="text-h2_mobile xl:text-h2_desktop hyphens-auto font-medium"
                   lang="de"
                 >
                   Raum für jede{" "}

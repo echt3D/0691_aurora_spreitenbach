@@ -2,10 +2,10 @@ import CoverflowTwo from "../components/CoverflowTwo";
 
 const Lage = () => {
   return (
-    <section id="Lage" className="bg-tertiary pt-60 -mt-40  scroll-mt-header">
+    <section id="Lage" className="bg-tertiary pt-80 pb-40 -mt-40  scroll-mt-header">
       <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl mx-auto xl:grid xl:grid-cols-2 flex flex-col gap-8 xl:gap-20">
-        <div className="flex xl:hidden flex-col items-end">
-          <p className="text-h4_desktop">Lage</p>
+        <div className="flex xl:hidden flex-col items-end font-medium">
+          <p className="text-h4_desktop ">Lage</p>
           <span className="text-h2_desktop bg-primary text-white px-2">
             Spreitenbach
           </span>
@@ -13,7 +13,9 @@ const Lage = () => {
         <CoverflowTwo />
         <aside className="text-right flex flex-col gap-8 items-end">
           <div className="hidden xl:block">
-            <p className="text-h4_mobile xl:text-h4_desktop">Lage</p>
+            <p className="text-h4_mobile xl:text-h4_desktop font-medium">
+              Lage
+            </p>
             <span className="text-h2_mobile xl:text-h2_desktop bg-primary text-white px-2">
               Spreitenbach
             </span>

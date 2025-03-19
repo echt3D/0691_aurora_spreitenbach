@@ -4,10 +4,11 @@ const Hero = () => {
   return (
     <section className="w-full xl:h-screen flex flex-col-reverse xl:flex-row bg-tertiary">
       <aside className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half mx-auto xl:pt-header flex flex-col justify-center gap-8 py-8 xl:py-0">
-        <div className="text-primary ">
+        <div className="text-accent ">
           <p className="text-h4_mobile xl:text-h4_desktop">Willkommen</p>
           <h1
-            className="text-h1_mobile xl:text-h1_desktop leading-13 hyphens-auto"
+            className="text-h1_mobile xl:text-h1_desktop leading-15 font-medium
+hyphens-auto"
             lang="de"
           >
             Dein geborgenes 
@@ -32,7 +33,7 @@ const Hero = () => {
         </div>
       </aside>
       <aside className="z-10  flex justify-end">
-        <div className="relative w-screen h-[485px] lg:w-[90vw] xl:w-[60vw] 2xl:w-[40vw] xl:max-w-7xl xl:mx-auto md:h-auto aspect-[2/3]">
+        <div className="relative w-[90vw] h-[485px] lg:w-[90vw] xl:w-[60vw] 2xl:w-[40vw] xl:max-w-7xl xl:mx-auto md:h-auto aspect-[2/3]">
           <Image
             src="/images/main_visu.png"
             fill

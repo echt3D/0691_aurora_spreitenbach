@@ -14,15 +14,17 @@ const Kontakt = () => {
           fill="#F5E4D7"
         />
       </svg>
-      <div className="bg-secondary w-screen h-480 md:h-360 xl:h-240 3xl:h-200 -mt-1"></div>
+      <div className="bg-secondary w-screen h-460 md:h-360 xl:h-240 3xl:h-200 -mt-1"></div>
 
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative flex flex-col gap-16">
           <div className="xl:pt-28 3xl:pt-40 xl:grid xl:grid-cols-2 gap-20 ">
             <aside className=" flex flex-col gap-8 pt-20 xl:pt-32">
               <div>
-                <p className="text-h4_mobile xl:text-h4_desktop">Kontakt</p>
-                <h2 className="text-h2_mobile xl:text-h2_desktop">
+                <p className="text-h4_mobile xl:text-h4_desktop font-medium">
+                  Kontakt
+                </p>
+                <h2 className="text-h2_mobile xl:text-h2_desktop font-medium">
                   <span className="bg-primary text-white px-2">
                     Interesse?
                     <br />

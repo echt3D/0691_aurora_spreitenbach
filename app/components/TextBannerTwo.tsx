@@ -6,7 +6,7 @@ const TextBannerTwo = () => {
         {/* Mobile-specific SVG with adjusted viewBox for "zoomed in" effect */}
         <Image
           src="/assets/text-banner-mobile.svg"
-          width={400}
+          width={600}
           height={600}
           alt="text banner mobile bg"
         />
