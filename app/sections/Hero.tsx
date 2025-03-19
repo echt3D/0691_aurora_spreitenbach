@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="w-full xl:h-screen flex flex-col-reverse xl:flex-row bg-tertiary">
-      <aside className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half mx-auto xl:pt-header flex flex-col justify-center gap-8 py-8 xl:py-0">
+      <aside className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half mx-auto xl:pt-header flex flex-col justify-center gap-8 py-8 pb-16 xl:py-0">
         <div className="text-accent ">
           <p className="text-h4_mobile xl:text-h4_desktop">Willkommen</p>
           <h1
