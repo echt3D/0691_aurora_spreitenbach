@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="text-accent ">
           <p className="text-h4_mobile xl:text-h4_desktop">Willkommen</p>
           <h1
-            className="text-h1_mobile xl:text-h1_desktop leading-15 font-medium
+            className="text-h1_mobile xl:text-h1_desktop leading-15 font-light
 hyphens-auto"
             lang="de"
           >

@@ -1,7 +1,7 @@
 import Image from "next/image";
 const TextBannerTwo = () => {
   return (
-    <div className="relative -mt-10 xl:-mt-40 z-20 overflow-hidden">
+    <div className="relative -mt-10 xl:-mt-40 z-20 overflow-hidden ">
       <div className="md:hidden">
         {/* Mobile-specific SVG with adjusted viewBox for "zoomed in" effect */}
         <Image
@@ -24,7 +24,7 @@ const TextBannerTwo = () => {
           />
         </svg>
       </div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-4">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-4 font-light">
         <p className="text-white text-h2_mobile xl:text-h2_desktop text-center">
           «Wenn die Lichter der Stadt glänzen,
           <br /> spiegelt sich darin Geborgenheit.»

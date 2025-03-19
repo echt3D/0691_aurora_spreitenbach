@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TextBanner = () => {
   return (
-    <div className="relative -mt-12 md:-mt-12 xl:-mt-40 z-20 overflow-hidden">
+    <div className="relative -mt-12 md:-mt-12 xl:-mt-40 z-20 overflow-hidden ">
       <div className="md:hidden">
         {/* Mobile-specific SVG with adjusted viewBox for "zoomed in" effect */}
         <Image
@@ -26,7 +26,7 @@ const TextBanner = () => {
         </svg>
       </div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-4">
-        <p className="text-white text-h2_mobile xl:text-h2_desktop text-center">
+        <p className="text-white text-h2_mobile xl:text-h2_desktop text-center font-light">
           «Hier, wo Horizonte wachsen,
           <br /> beginnt deine Zukunft.»
         </p>
