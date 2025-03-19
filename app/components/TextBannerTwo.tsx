@@ -1,7 +1,7 @@
 import Image from "next/image";
 const TextBannerTwo = () => {
   return (
-    <div className="relative -mt-10 xl:-mt-40 z-20 overflow-hidden ">
+    <div className="relative -mt-18 xl:-mt-40 z-20 overflow-hidden ">
       <div className="md:hidden">
         {/* Mobile-specific SVG with adjusted viewBox for "zoomed in" effect */}
         <Image

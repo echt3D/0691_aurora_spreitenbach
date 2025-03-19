@@ -6,7 +6,7 @@ const Kontakt = () => {
     <section id="Kontakt" className="relative  scroll-mt-header">
       <div className="block md:hidden">
         <svg
-          viewBox="0 0 589 233"
+          viewBox="0 0 589 230"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="bg-tertiary"
@@ -31,7 +31,7 @@ const Kontakt = () => {
       </div>
       <div className="hidden md:block">
         <svg
-          viewBox="0 0 1510 346"
+          viewBox="0 0 1510 345"
           xmlns="http://www.w3.org/2000/svg"
           className="w-full h-full  bg-tertiary"
         >
@@ -41,7 +41,7 @@ const Kontakt = () => {
           />
         </svg>
       </div>
-      <div className="bg-secondary w-screen h-460 md:h-360 xl:h-240 3xl:h-200 -mt-1"></div>
+      <div className="bg-secondary w-screen h-440 md:h-360 xl:h-240 3xl:h-200 -mt-1"></div>
 
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative flex flex-col gap-16">

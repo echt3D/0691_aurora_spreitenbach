@@ -31,22 +31,15 @@ const Menu = ({ openMenu, setOpenMenu }: MenuProps) => {
       </nav>
       <div
         style={{ backgroundImage: "url(/assets/footer.svg)" }}
-        className="w-full  bg-cover relative z-20 text-white py-12 "
+        className="w-full  bg-cover relative z-20 text-white py-20 h-[40vh] "
       >
-        <div className="flex flex-col gap-12 max-w-mobile mx-auto">
-          <div className="flex flex-col gap-1">
-            <p className="font-bold">H&B Real Estate AG</p>
-            <p>
-              Lagerstrasse 107,
-              <br /> 8004 ZH
-            </p>
+        <div className="flex flex-col  max-w-mobile mx-auto">
+          <div className="flex flex-col justify-center gap-1">
+            <p className="font-bold">Noemi Natalia Nagel</p>
+            <a href="mailto:wohnen@hbre.ch">wohnen@hbre.ch</a>
             <span>
               Tel. <a href="tel:0445757047">044 575 70 47</a>
             </span>
-          </div>
-          <div className="flex flex-col gap-1">
-            <p className="font-bold">Noemi Natalia Nagel</p>
-            <a href="mailto:wohnen@hbre.ch">wohnen@hbre.ch</a>
           </div>
         </div>
       </div>

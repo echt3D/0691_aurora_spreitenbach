@@ -6,7 +6,7 @@ const Projekt = () => {
     <section id="Projekt" className="relative scroll-mt-header">
       <div className="block md:hidden">
         <svg
-          viewBox="0 0 589 233"
+          viewBox="0 0 589 230"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="bg-tertiary"
@@ -31,7 +31,7 @@ const Projekt = () => {
       </div>
       <div className="hidden md:block">
         <svg
-          viewBox="0 0 1510 346"
+          viewBox="0 0 1510 345"
           xmlns="http://www.w3.org/2000/svg"
           className="w-full h-full  bg-tertiary"
         >
@@ -41,10 +41,10 @@ const Projekt = () => {
           />
         </svg>
       </div>
-      <div className="bg-secondary w-screen h-300 md:h-260 xl:h-180 -mt-2"></div>
+      <div className="bg-secondary w-screen h-340 md:h-260 xl:h-180 -mt-2"></div>
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
-          <div className="absolute top-20 md:top-30 3xl:top-60 xl:grid xl:grid-cols-2 gap-2 ">
+          <div className="absolute top-8 md:top-30 3xl:top-60 xl:grid xl:grid-cols-2 gap-2 ">
             <aside className=" flex flex-col  xl:gap-8 pt-26">
               <div>
                 <p className="text-h4_mobile xl:text-h4_desktop font-light">
@@ -83,18 +83,21 @@ const Projekt = () => {
                 Weiter zur Lage
               </a>
             </aside>
-            <aside className="flex flex-col gap-24">
+            <aside className="flex flex-col gap-12 md:gap-24">
               <Button />
               <Coverflow />
               <div className="block xl:hidden">
                 <p className="leading-10">
                   Inmitten der Veränderung bewahrt das Projekt Vergangenes und
                   vereint es mit zeitgemässem Wohnkomfort. Das markante Hochhaus
-                  an der Bahnhofstrasse 59 erstrahlt in frischer Architektur,
-                  mit hochwertig sanierten Wohnungen, modernen Küchen und
-                  stilvollen Materialien. Für alle, die das Besondere suchen: ob
-                  Stadtmensch oder Naturliebhaber, Familie oder Individualist –
-                  hier findet jede Lebensform Raum zum Entfalten.
+                  an der Bahnhofstrasse 59 besticht durch schlicht sanierte
+                  Wohnungen, einfache Küchen und helle Farben. Grosse Balkone,
+                  gut geschnittene Grundrisse und faire Mietpreise sind weitere
+                  Vorzüge der 2- bis 4-Zimmer-Wohnungen. Ob Stadtmensch oder
+                  Naturliebhaber, Familie oder Individualist – hier findet jede
+                  Lebensform Raum zum Entfalten. Bezugstermine sind ab dem{" "}
+                  <span className="font-bold">1. November / 1. Dezember </span>{" "}
+                  möglich. 
                 </p>
               </div>
               <a
