@@ -6,7 +6,7 @@ const Projekt = () => {
     <section id="Projekt" className="relative scroll-mt-header">
       <div className="block md:hidden">
         <svg
-          viewBox="0 0 589 230"
+          viewBox="0 0 589 228"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="bg-tertiary"
@@ -41,7 +41,7 @@ const Projekt = () => {
           />
         </svg>
       </div>
-      <div className="bg-secondary w-screen h-340 md:h-260 xl:h-180 -mt-2"></div>
+      <div className="bg-secondary w-screen h-380 md:h-260 xl:h-180 -mt-2"></div>
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
           <div className="absolute top-8 md:top-30 3xl:top-60 xl:grid xl:grid-cols-2 gap-2 ">

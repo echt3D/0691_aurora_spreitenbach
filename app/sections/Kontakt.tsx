@@ -6,7 +6,7 @@ const Kontakt = () => {
     <section id="Kontakt" className="relative  scroll-mt-header">
       <div className="block md:hidden">
         <svg
-          viewBox="0 0 589 230"
+          viewBox="0 0 589 228"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="bg-tertiary"
@@ -16,8 +16,7 @@ const Kontakt = () => {
             maskUnits="userSpaceOnUse"
             x="0"
             y="0"
-            width="589"
-            height="233"
+          
           >
             <rect width="589" height="233" fill="#F5E4D7" />
           </mask>
