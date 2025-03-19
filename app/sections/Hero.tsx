@@ -33,7 +33,7 @@ hyphens-auto"
         </div>
       </aside>
       <aside className="z-10  flex justify-end">
-        <div className="relative w-[90vw] h-[485px] lg:w-[90vw] xl:w-[60vw] 2xl:w-[40vw] xl:max-w-7xl xl:mx-auto md:h-auto  object-cover">
+        <div className="relative w-[90vw] h-[485px] lg:w-[90vw] xl:w-[60vw] 2xl:w-[40vw] xl:max-w-7xl xl:mx-auto md:h-[98vh] lg:h-auto  object-cover">
           <Image
             src="/images/main_visu.png"
             fill
