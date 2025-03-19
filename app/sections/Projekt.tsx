@@ -41,7 +41,7 @@ const Projekt = () => {
           />
         </svg>
       </div>
-      <div className="bg-secondary w-screen h-380 md:h-260 xl:h-180 -mt-2"></div>
+      <div className="bg-secondary w-screen h-340 md:h-260 xl:h-180 -mt-2"></div>
       <div className="absolute inset-0 flex justify-center ">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto relative">
           <div className="absolute top-0 md:top-30 3xl:top-60 xl:grid xl:grid-cols-2 gap-2">
@@ -83,7 +83,7 @@ const Projekt = () => {
                 Weiter zur Lage
               </a>
             </aside>
-            <aside className="flex flex-col gap-12 md:gap-24">
+            <aside className="flex flex-col md:gap-24">
               <Button />
               <Coverflow />
               <div className="block xl:hidden">
