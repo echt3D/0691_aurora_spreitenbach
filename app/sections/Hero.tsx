@@ -11,7 +11,7 @@ const Hero = () => {
 hyphens-auto"
             lang="de"
           >
-            Dein geborgenes 
+            Dein neues
             <br />
             <span className="bg-primary text-white px-2">Zuhause</span> wartet
             auf dich!
@@ -21,8 +21,8 @@ hyphens-auto"
           <p>
             Wenn das Morgenlicht den Horizont färbt, erwacht ein neues
             Wohngefühl. «Aurora» verbindet die Dynamik urbanen Lebens mit der
-            Ruhe des Grüns. Hier trifft Weitblick auf Geborgenheit und Moderne
-            auf Behaglichkeit.
+            Ruhe des Grüns. Hier vereinen sich Weitblick und Innovation mit
+            moderner Behaglichkeit.
           </p>
           <p>
             In Spreitenbach entstehen{" "}
@@ -37,7 +37,6 @@ hyphens-auto"
           <Image
             src="/images/main_visu.png"
             fill
-            
             alt="aurora spreitenbach main visualisierung"
           />
         </div>

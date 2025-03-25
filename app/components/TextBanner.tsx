@@ -4,7 +4,6 @@ const TextBanner = () => {
   return (
     <div className="relative -mt-12 md:-mt-12 xl:-mt-40 z-20 overflow-hidden ">
       <div className="md:hidden">
-        {/* Mobile-specific SVG with adjusted viewBox for "zoomed in" effect */}
         <Image
           src="/assets/text-banner-mobile.svg"
           width={600}
@@ -13,7 +12,6 @@ const TextBanner = () => {
         />
       </div>
       <div className="hidden md:block">
-        {/* Original SVG for larger screens */}
         <svg
           viewBox="0 0 1476 489"
           fill="none"
