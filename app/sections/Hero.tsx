@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="w-full xl:h-screen flex flex-col-reverse xl:flex-row bg-tertiary">
+    <section className="w-full xl:h-[120vh] flex flex-col-reverse xl:flex-row bg-tertiary">
       <aside className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half mx-auto xl:pt-header flex flex-col justify-center gap-8 py-8 pb-16 xl:py-0">
         <div className="text-accent ">
           <p className="text-h4_mobile xl:text-h4_desktop">Willkommen</p>
@@ -32,12 +32,13 @@ hyphens-auto"
           </p>
         </div>
       </aside>
-      <aside className="z-10  flex justify-end">
-        <div className="relative w-[90vw] h-[485px] lg:w-[90vw] xl:w-[60vw] 2xl:w-[40vw] xl:max-w-7xl xl:mx-auto md:h-[98vh] lg:h-auto  object-cover">
+      <aside className="z-10  h-[80vh] md:h-[100vh] xl:h-full flex justify-end">
+        <div className="relative w-[100vw] h-full  xl:w-[45vw]  xl:max-w-7xl xl:mx-auto  lg:h-auto ">
           <Image
             src="/images/main_visu.png"
             fill
             alt="aurora spreitenbach main visualisierung"
+            className="object-cover md:object-contain"
           />
         </div>
       </aside>
