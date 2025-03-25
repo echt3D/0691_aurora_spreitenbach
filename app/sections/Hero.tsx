@@ -32,13 +32,13 @@ hyphens-auto"
           </p>
         </div>
       </aside>
-      <aside className="z-10 h-full flex justify-end xl:justify-center ">
+      <aside className="z-10 h-full flex justify-end ">
         <Image
           src="/images/main_visu.png"
           width={800}
           height={1000}
           alt="aurora spreitenbach main visualisierung"
-          className=""
+          className="w-4/5 h-2/3 xl:h-auto xl:w-auto"
         />
       </aside>
     </section>
