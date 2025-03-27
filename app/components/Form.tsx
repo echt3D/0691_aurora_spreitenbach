@@ -10,7 +10,7 @@ const Form = () => {
     phone?: string;
     email: string;
     remarks: string;
-    additional_info: string;
+    additional_info: string[];
   };
 
   const initContact: Contact = {
@@ -19,7 +19,7 @@ const Form = () => {
     phone: "",
     email: "",
     remarks: "",
-    additional_info: "",
+    additional_info: [],
   };
 
   const [contact, setContact] = useState<Contact>(initContact);
@@ -30,6 +30,18 @@ const Form = () => {
     const { name, value } = e.target;
 
     setContact({ ...contact, [name]: value });
+  };
+
+  const handleCheckbox = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { value } = e.target;
+
+    if (contact.additional_info.includes(value)) {
+      const removed = contact.additional_info.filter((info) => info !== value);
+      setContact({ ...contact, additional_info: removed });
+    } else {
+      contact.additional_info.push(value);
+      setContact(contact);
+    }
   };
 
   const canSubmitForm = () => {
@@ -44,6 +56,7 @@ const Form = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
+
     const res = await fetch(process.env.NEXT_PUBLIC_FORM_API!, {
       method: "POST",
       headers: {
@@ -53,7 +66,10 @@ const Form = () => {
         )}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(contact),
+      body: JSON.stringify({
+        ...contact,
+        additional_info: `Interesse an: ${contact.additional_info.join(", ")}`,
+      }),
     });
     if (res.status === 200) {
       setIsSubmitted(true);
@@ -120,18 +136,52 @@ const Form = () => {
             onChange={handleContact}
           />
         </div>
-        <div className="flex flex-col">
-          <label htmlFor="remarks" className="font-bold ">
-            Zusätzliche Bemerkung (Interesse an Wohnung)
-          </label>
-          <input
-            id="additional_info"
-            type="text"
-            name="additional_info"
-            className="border-b border-text_primary focus:outline-none h-20"
-            value={contact.additional_info}
-            onChange={handleContact}
-          />
+        <div className="flex flex-col gap-5">
+          <p className="font-bold ">Interesse an</p>
+          <div className="flex justify-between">
+            <div className="flex items-start gap-2">
+              <input
+                id="additional_info"
+                type="checkbox"
+                name="additional_info"
+                className="focus:outline-none checked:bg-primary appearance-none border-2 border-primary h-4 w-4"
+                value="2.0 Zimmer 46.8m² - 47.45m²"
+                onChange={handleCheckbox}
+              />
+              <label>
+                <span className="font-semibold">2.0 Zimmer</span> <br /> 46.8m²
+                - 47.45m²
+              </label>
+            </div>
+            <div className="flex items-start gap-2">
+              <input
+                id="additional_info"
+                type="checkbox"
+                name="additional_info"
+                className="focus:outline-none checked:bg-primary appearance-none border-2 border-primary h-4 w-4"
+                value="3.0 Zimmer 61.3m² - 61.95m²"
+                onChange={handleCheckbox}
+              />
+              <label>
+                <span className="font-semibold">3.0 Zimmer</span> <br /> 61.3m²
+                - 61.95m²
+              </label>
+            </div>
+            <div className="flex items-start gap-2">
+              <input
+                id="additional_info"
+                type="checkbox"
+                name="additional_info"
+                className="focus:outline-none checked:bg-primary appearance-none border-2 border-primary h-4 w-4"
+                value="4.0 Zimmer 75.8m² - 76.45m²"
+                onChange={handleCheckbox}
+              />
+              <label>
+                <span className="font-semibold">4.0 Zimmer</span> <br /> 75.8m²
+                - 76.45m²
+              </label>
+            </div>
+          </div>
         </div>
         <div className="flex flex-col">
           <label htmlFor="remarks" className="font-bold ">
