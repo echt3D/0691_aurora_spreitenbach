@@ -28,7 +28,7 @@ const CoverFlow = () => {
           data-coverflow-position={position}
         >
           <div
-            className="coverflow__image bg-white rounded-2xl flex flex-col items-center justify-center text-center gap-6 mt-2"
+            className="coverflow__image bg-white rounded-2xl flex flex-col items-center justify-center text-center gap-6 mt-2 px-8"
             data-coverflow-index={1}
           >
             <p className="text-h3_desktop text-primary">
@@ -36,12 +36,12 @@ const CoverFlow = () => {
               <br />
               Neues Wohnen
             </p>
-            <p>52 Mietwohnugnen</p>
+            <p>52 Mietwohnungnen</p>
             <p>13 Stockwerke</p>
             <p>38 Parkplätze</p>
           </div>
           <div
-            className="coverflow__image bg-white rounded-2xl flex flex-col items-center justify-center text-center gap-6 mt-2"
+            className="coverflow__image bg-white rounded-2xl flex flex-col items-center justify-center text-center gap-6 mt-2 px-8"
             data-coverflow-index={2}
           >
             <p className="text-h3_desktop text-primary">
@@ -50,21 +50,21 @@ const CoverFlow = () => {
               Wohnfläche
             </p>
             <p>
-              <span className="font-bold">2.0 Zimmer</span> | 46.8m² - 47.45m²
+              <span className="font-bold">2.0 Zimmer</span> | 46.8m² - 47.5m²
             </p>
             <p>
-              <span className="font-bold">3.0 Zimmer</span> | 61.3m² - 61.95m²
+              <span className="font-bold">3.0 Zimmer</span> | 61.3m² - 62.0m²
             </p>
             <p>
-              <span className="font-bold">4.0 Zimmer</span> | 75.8m² - 76.45m²
+              <span className="font-bold">4.0 Zimmer</span> | 75.8m² - 76.5m²
             </p>
           </div>
           <div
-            className="coverflow__image bg-white rounded-2xl flex flex-col items-center justify-center text-center gap-6 mt-2"
+            className="coverflow__image bg-white rounded-2xl flex flex-col items-center justify-center text-center gap-6 mt-2 px-8"
             data-coverflow-index={3}
           >
             <p className="text-h3_desktop text-primary">Bezugstermin</p>
-            <p>verfügbar ab 1. November / 1. Dezember</p>
+            <p>verfügbar ab 1. November / 1. Dezember 2025</p>
           </div>
         </div>
         <button

@@ -137,7 +137,9 @@ const Form = () => {
           />
         </div>
         <div className="flex flex-col gap-5">
-          <p className="font-bold ">Interesse an</p>
+          <p className="font-bold ">
+            Bitte vermerke, an welcher Wohnung du interessiert bist:
+          </p>
           <div className="flex justify-between">
             <div className="flex items-start gap-2">
               <input
@@ -145,12 +147,12 @@ const Form = () => {
                 type="checkbox"
                 name="additional_info"
                 className="focus:outline-none checked:bg-primary appearance-none border-2 border-primary h-4 w-4"
-                value="2.0 Zimmer 46.8m² - 47.45m²"
+                value="2.0 Zimmer 46.8m² - 47.5m²"
                 onChange={handleCheckbox}
               />
               <label>
                 <span className="font-semibold">2.0 Zimmer</span> <br /> 46.8m²
-                - 47.45m²
+                - 47.5m²
               </label>
             </div>
             <div className="flex items-start gap-2">
@@ -159,12 +161,12 @@ const Form = () => {
                 type="checkbox"
                 name="additional_info"
                 className="focus:outline-none checked:bg-primary appearance-none border-2 border-primary h-4 w-4"
-                value="3.0 Zimmer 61.3m² - 61.95m²"
+                value="3.0 Zimmer 61.3m² - 62.0m²"
                 onChange={handleCheckbox}
               />
               <label>
                 <span className="font-semibold">3.0 Zimmer</span> <br /> 61.3m²
-                - 61.95m²
+                - 62.0m²
               </label>
             </div>
             <div className="flex items-start gap-2">
@@ -173,12 +175,12 @@ const Form = () => {
                 type="checkbox"
                 name="additional_info"
                 className="focus:outline-none checked:bg-primary appearance-none border-2 border-primary h-4 w-4"
-                value="4.0 Zimmer 75.8m² - 76.45m²"
+                value="4.0 Zimmer 75.8m² - 76.5m²"
                 onChange={handleCheckbox}
               />
               <label>
                 <span className="font-semibold">4.0 Zimmer</span> <br /> 75.8m²
-                - 76.45m²
+                - 76.5m²
               </label>
             </div>
           </div>
