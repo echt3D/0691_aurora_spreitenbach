@@ -72,7 +72,9 @@ const Projekt = () => {
                   Vorzüge der 2- bis 4-Zimmer-Wohnungen. Ob Stadtmensch oder
                   Naturliebhaber, Familie oder Individualist – hier findet jede
                   Lebensform Raum zum Entfalten. Bezugstermine sind ab dem{" "}
-                  <span className="font-bold">1. November / 1. Dezember </span>{" "}
+                  <span className="font-bold">
+                    1. November / 1. Dezember 2025{" "}
+                  </span>{" "}
                   möglich. 
                 </p>
               </div>
