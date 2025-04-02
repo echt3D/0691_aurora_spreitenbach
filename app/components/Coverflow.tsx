@@ -36,7 +36,7 @@ const CoverFlow = () => {
               <br />
               Neues Wohnen
             </p>
-            <p>52 Mietwohnungnen</p>
+            <p>52 Mietwohnungen</p>
             <p>13 Stockwerke</p>
             <p>38 Parkplätze</p>
           </div>
