@@ -1,0 +1,26 @@
+{
+  "home": {
+    "main_hero": {
+      "lead": "Willkommen",
+      "title": {
+        "one": "Dein neues",
+        "two": "Zuhause",
+        "three": "wartet auf dich!"
+      },
+      "text": {
+        "one": "Wenn das Morgenlicht den Horizont färbt, erwacht ein neues Wohngefühl. «Aurora» verbindet die Dynamik urbanen Lebens mit der Ruhe des Grüns. Hier vereinen sich Weitblick und Innovation mit moderner Behaglichkeit.",
+        "two": "In Spreitenbach entstehen",
+        "three": "Wohnungen zur Erstvermietung,",
+        "four": "in denen der Tag mit Licht durchflutet beginnt und die Nacht in angenehmer Atmosphäre endet."
+      }
+    }
+  },
+  "header": [
+    { "label": "Projekt", "link": "projekt" },
+    { "label": "Lage", "link": "lage" },
+    { "label": "Angebot", "link": "angebot" },
+    { "label": "Download", "link": "download" },
+    { "label": "Galerie", "link": "galerie" },
+    { "label": "Kontakt", "link": "kontakt" }
+  ]
+}
