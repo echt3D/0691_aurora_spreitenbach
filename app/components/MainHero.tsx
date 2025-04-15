@@ -1,7 +1,7 @@
 import Image from "next/image";
 import t from "../dics/text.json";
 
-const Hero = () => {
+const MainHero = () => {
   const { main_hero } = t.home;
   return (
     <section className="relative w-full flex flex-col-reverse xl:flex-row bg-tertiary  ">
@@ -43,4 +43,4 @@ hyphens-auto"
   );
 };
 
-export default Hero;
+export default MainHero;

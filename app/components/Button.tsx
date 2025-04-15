@@ -1,14 +1,18 @@
 import Link from "next/link";
 
-const Button = () => {
+type ButtonProps = {
+  label: string;
+  link: string;
+};
+
+const Button = ({ label, link }: ButtonProps) => {
   return (
     <Link
-      href="#Kontakt"
-      className="self-end xl:mr-32 h-button w-button bg-primary hover:bg-accent -rotate-12 hover:rotate-0 duration-300 p-6 rounded-full text-center text-white hidden xl:flex justify-center items-center font-bold"
+      href={link}
+      className="w-fit bg-primary hover:bg-accent rounded-3xl py-2 px-4 duration-300 text-white text-center"
     >
-      <p>Neugierig geworden? Schreib uns gern!</p>
+      {label}
     </Link>
   );
 };
-
 export default Button;

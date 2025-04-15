@@ -13,7 +13,8 @@
         "three": "Wohnungen zur Erstvermietung,",
         "four": "in denen der Tag mit Licht durchflutet beginnt und die Nacht in angenehmer Atmosphäre endet."
       }
-    }
+    },
+    "text_banner_one": "«Hier, wo Horizonte wachsen, beginnt deine Zukunft.»"
   },
   "header": [
     { "label": "Projekt", "link": "projekt" },
@@ -22,5 +23,42 @@
     { "label": "Download", "link": "download" },
     { "label": "Galerie", "link": "galerie" },
     { "label": "Kontakt", "link": "kontakt" }
-  ]
+  ],
+  "project_block": {
+    "lead": "Projekt",
+    "title": {
+      "one": "Raum für jede",
+      "two": "Lebensform:",
+      "three": "stilvoll, zentral, zeitgemäss"
+    },
+    "text": {
+      "one": "Inmitten der Veränderung bewahrt das Projekt Vergangenes und vereint es mit zeitgemässem Wohnkomfort. Das markante Hochhaus an der Bahnhofstrasse 59 besticht durch schlicht sanierte Wohnungen, einfache Küchen und helle Farben. Grosse Balkone, gut geschnittene Grundrisse und faire Mietpreise sind weitere Vorzüge der 2- bis 4-Zimmer-Wohnungen. Ob Stadtmensch oder Naturliebhaber, Familie oder Individualist – hier findet jede Lebensform Raum zum Entfalten. Bezugstermine sind ab dem",
+      "two": "1. November / 1. Dezember 2025",
+      "three": "möglich."
+    },
+    "button": {
+      "label": "Zum Projekt",
+      "link": "/projekt"
+    }
+  },
+  "lage_block": {
+    "lead": "Lage",
+    "title": "Spreitenbach",
+    "text": "Spreitenbach wächst – und damit die Möglichkeiten. Das Langäckerquartier vereint einfaches Wohnen mit natürlicher Erholung. Ob entspannen in den Bädern, shoppen in modernen Zentren, aktiv sein im Golfpark oder treffen im Kino – die Lage bietet Vielfalt. Wer das Beste aus beiden Welten sucht – lebendig und entspannt –, findet es hier."
+  },
+  "angebot_block": {
+    "lead": "Angebot",
+    "title": {
+      "one": "Dein Zuhause mit",
+      "two": "Weitblick"
+    },
+    "text": "«Aurora» bietet dir charmante, helle Wohnungen, die auf verschiedene Lebensstile abgestimmt sind. Mit klaren Grundrissen, grosszügigen Balkonen, weiten Aussichten und fairen Mietpreisen entsteht hier Raum für dich – egal, ob du alleine wohnst, mit deiner Familie ein neues Kapitel beginnst oder die Vorzüge einer urbanen Umgebung mit naturnaher Erholung geniessen möchtest. Wähle aus 2-, 3- oder 4-Zimmer Wohnungen und finde dein Zuhause. ",
+    "label": "Zum Angebot",
+    "link": "/angebot"
+  },
+  "sticker": { "text": "Neugierig geworden? Schreib uns gern!" },
+  "google_map_button": {
+    "label": "Google Maps öffnen",
+    "link": "https://www.google.ch/maps/place/Bahnhofstrasse+59,+8957+Spreitenbach/@47.4233828,8.3600261,16z/data=!3m1!4b1!4m6!3m5!1s0x47901281e3e8e321:0x1ed7bd28893e524f!8m2!3d47.4233828!4d8.362601!16s%2Fg%2F11c1x985j5?entry=tts&g_ep=EgoyMDI1MDMwMi4wIPu8ASoASAFQAw%3D%3D"
+  }
 }

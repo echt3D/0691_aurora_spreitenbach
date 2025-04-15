@@ -1,8 +1,12 @@
 import Image from "next/image";
 
-const TextBanner = () => {
+type TextBannerProps = {
+  text: string;
+};
+
+const TextBanner = ({ text }: TextBannerProps) => {
   return (
-    <div className="relative -mt-12 md:-mt-12 xl:-mt-40 z-20 overflow-hidden ">
+    <div className="relative -mt-12 md:-mt-12 xl:-mt-0 z-20 overflow-hidden ">
       <div className="md:hidden">
         <Image
           src="/assets/text-banner-mobile.svg"
@@ -25,8 +29,7 @@ const TextBanner = () => {
       </div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full px-4">
         <p className="text-white text-h2_mobile xl:text-h2_desktop text-center font-light">
-          «Hier, wo Horizonte wachsen,
-          <br /> beginnt deine Zukunft.»
+          {text}
         </p>
       </div>
     </div>
