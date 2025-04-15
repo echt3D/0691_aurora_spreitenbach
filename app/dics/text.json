@@ -53,8 +53,10 @@
       "two": "Weitblick"
     },
     "text": "«Aurora» bietet dir charmante, helle Wohnungen, die auf verschiedene Lebensstile abgestimmt sind. Mit klaren Grundrissen, grosszügigen Balkonen, weiten Aussichten und fairen Mietpreisen entsteht hier Raum für dich – egal, ob du alleine wohnst, mit deiner Familie ein neues Kapitel beginnst oder die Vorzüge einer urbanen Umgebung mit naturnaher Erholung geniessen möchtest. Wähle aus 2-, 3- oder 4-Zimmer Wohnungen und finde dein Zuhause. ",
-    "label": "Zum Angebot",
-    "link": "/angebot"
+    "button": {
+      "label": "Zum Angebot",
+      "link": "/angebot"
+    }
   },
   "sticker": { "text": "Neugierig geworden? Schreib uns gern!" },
   "google_map_button": {
