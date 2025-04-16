@@ -2,8 +2,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { scrollToTop } from "../utils/scrollToTop";
+import t from "../dics/text.json";
 
 const Footer = () => {
+  const {
+    company,
+    address,
+    mail,
+    phone,
+    contact_person,
+    copyright,
+    impressum_datenschutz,
+  } = t.footer;
   return (
     <footer
       style={{ backgroundImage: "url(/assets/footer.svg)" }}
@@ -33,30 +43,30 @@ const Footer = () => {
         <div className="flex flex-col xl:flex-row xl:justify-between xl:items-end gap-4">
           <div className="flex flex-col gap-8 xl:gap-12">
             <div className="flex flex-col gap-1">
-              <p className="font-bold">H&B Real Estate AG</p>
+              <p className="font-bold">{company}</p>
               <p>
-                Lagerstrasse 107,
-                <br /> 8004 ZH
+                {address.one}
+                <br /> {address.two}
               </p>
               <span>
-                Tel. <a href="tel:0445757047">044 575 70 47</a>
+                Tel. <a href={`tel:${phone}`}>{phone}</a>
               </span>
             </div>
             <div className="flex flex-col gap-1">
-              <p className="font-bold">Noemi Natalia Nagel</p>
-              <a href="mailto:wohnen@hbre.ch">wohnen@hbre.ch</a>
+              <p className="font-bold">{contact_person}</p>
+              <a href={`mailto:${mail}`}>{mail}</a>
             </div>
           </div>
           <div className="flex gap-12">
-            <p className="hidden xl:block">Copyright 2025</p>
+            <p className="hidden xl:block">{copyright}</p>
             <Link
-              href="/impressum-datenschutz"
+              href={`${impressum_datenschutz.link}`}
               className="underline hover:text-primary duration-300"
             >
-              Impressum / Datenschutz
+              {impressum_datenschutz.label}
             </Link>
           </div>
-          <p className="block xl:hidden">Copyright 2025</p>
+          <p className="block xl:hidden">{copyright}</p>
         </div>
       </div>
     </footer>

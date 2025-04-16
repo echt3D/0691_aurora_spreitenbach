@@ -5,12 +5,11 @@ import Lage from "./components/LageBlock";
 import AngebotBlock from "./components/AngebotBlock";
 import GalleryBlock from "./components/GalleryBlock";
 import ContactBlock from "./components/ContactBlock";
-import TextBannerTwo from "./components/TextBannerTwo";
 import ImageBanner from "./components/ImageBanner";
 import DownloadBlock from "./components/DownloadBlock";
 import t from "./dics/text.json";
 export default function Home() {
-  const { text_banner_one } = t.home;
+  const { text_banner_one, text_banner_two, image_banner } = t.home;
   return (
     <>
       <MainHero />
@@ -21,8 +20,8 @@ export default function Home() {
       <DownloadBlock />
       <GalleryBlock />
       <ContactBlock />
-      <TextBannerTwo />
-      <ImageBanner />
+      <TextBanner text={text_banner_two} />
+      <ImageBanner src={image_banner.src} alt={image_banner.alt} />
     </>
   );
 }

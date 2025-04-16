@@ -1,12 +1,17 @@
 import Image from "next/image";
 
-const ImageBanner = () => {
+type ImageBannerProps = {
+  src: string;
+  alt: string;
+};
+
+const ImageBanner = ({ src, alt }: ImageBannerProps) => {
   return (
     <section className="relative w-full h-screen -mt-36">
       <Image
-        src="/visus/visu.jpg"
+        src={src}
         layout="fill"
-        alt="visu"
+        alt={alt}
         className="object-cover"
       />
     </section>

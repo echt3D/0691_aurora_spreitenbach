@@ -14,7 +14,12 @@
         "four": "in denen der Tag mit Licht durchflutet beginnt und die Nacht in angenehmer Atmosphäre endet."
       }
     },
-    "text_banner_one": "«Hier, wo Horizonte wachsen, beginnt deine Zukunft.»"
+    "text_banner_one": "«Hier, wo Horizonte wachsen, beginnt deine Zukunft.»",
+    "text_banner_two": "«Wenn die Lichter der Stadt glänzen, spiegelt sich darin Geborgenheit.»",
+    "image_banner": {
+      "src": "/visus/visu_4.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 4"
+    }
   },
   "header": [
     { "label": "Projekt", "link": "projekt" },
@@ -116,5 +121,20 @@
   "google_map_button": {
     "label": "Google Maps öffnen",
     "link": "https://www.google.ch/maps/place/Bahnhofstrasse+59,+8957+Spreitenbach/@47.4233828,8.3600261,16z/data=!3m1!4b1!4m6!3m5!1s0x47901281e3e8e321:0x1ed7bd28893e524f!8m2!3d47.4233828!4d8.362601!16s%2Fg%2F11c1x985j5?entry=tts&g_ep=EgoyMDI1MDMwMi4wIPu8ASoASAFQAw%3D%3D"
+  },
+  "footer": {
+    "company": "H&B Real Estate AG",
+    "address": {
+      "one": "Lagerstrasse 107",
+      "two": "8004 ZH"
+    },
+    "phone": "044 575 70 47",
+    "contact_person": "Noemi Natalia Nagel",
+    "mail": "wohnen@hbre.ch",
+    "copyright": "Copyright 2025",
+    "impressum_datenschutz": {
+      "label": "  Impressum / Datenschutz",
+      "link": "/impressum-datenschutz"
+    }
   }
 }
