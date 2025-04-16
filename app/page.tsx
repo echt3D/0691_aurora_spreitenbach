@@ -4,7 +4,7 @@ import TextBanner from "./components/TextBanner";
 import Lage from "./components/LageBlock";
 import AngebotBlock from "./components/AngebotBlock";
 import GalleryBlock from "./components/GalleryBlock";
-import Kontakt from "./sections/Kontakt";
+import ContactBlock from "./components/ContactBlock";
 import TextBannerTwo from "./components/TextBannerTwo";
 import ImageBanner from "./components/ImageBanner";
 import DownloadBlock from "./components/DownloadBlock";
@@ -20,7 +20,7 @@ export default function Home() {
       <AngebotBlock />
       <DownloadBlock />
       <GalleryBlock />
-      <Kontakt />
+      <ContactBlock />
       <TextBannerTwo />
       <ImageBanner />
     </>

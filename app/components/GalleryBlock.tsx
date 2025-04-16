@@ -5,7 +5,7 @@ import Button from "./Button";
 const AngebotBlock = () => {
   const { lead, title, text, button } = t.gallery_block;
   return (
-    <section className="relative h-[120vh] flex  -mt-44 3xl:-mt-64 -z-10">
+    <section className="relative h-[130vh] flex  -mt-44 3xl:-mt-64 -z-10">
       <aside className="">
         <div className="relative h-full w-[60vw] ">
           <Image

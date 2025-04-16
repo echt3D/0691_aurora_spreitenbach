@@ -90,6 +90,28 @@
       "link": "/galerie"
     }
   },
+  "contact_block": {
+    "lead": "Kontakt",
+    "title": {
+      "one": "Interesse?",
+      "two": "Wage den ersten Schritt"
+    },
+    "text": {
+      "one": "Hast du dein neues Zuhause schon vor Augen? ",
+      "two": "Hast du Fragen, Interesse oder brauchst du noch mehr Infos zu deiner neuen Wohnung? ",
+      "three": "Wir freuen uns auf deine Kontaktaufnahme!"
+    },
+    "button": {
+      "label": "Zum Kontakt",
+      "link": "/kontakt"
+    }
+  },
+  "contact_person": {
+    "title": "Ansprechsperson",
+    "name": "Noemi Natalia Nagel",
+    "email": "wohnen@hbre.ch",
+    "phone": "044 575 70 47"
+  },
   "sticker": { "text": "Neugierig geworden? Schreib uns gern!" },
   "google_map_button": {
     "label": "Google Maps öffnen",

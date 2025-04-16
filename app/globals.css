@@ -16,6 +16,7 @@
   --spacing-header: 125px;
   --spacing-header_mobile: 70px;
   --spacing-button: 170px;
+  --spacing-profile_image_desktop: 240px;
 
   --breakpoint-3xl: 110rem;
   --breakpoint-sm: 400px;
@@ -32,6 +33,8 @@
   --text-body_mobile: 16px;
 
   --font-quicksand: "Quicksand", sans-serif;
+
+  --shadow-custom: 1px 1px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .red {
@@ -45,7 +48,6 @@
 .green {
   border: green solid 2px;
 }
-
 
 @keyframes menuSlideIn {
   0% {

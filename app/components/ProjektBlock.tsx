@@ -10,7 +10,7 @@ const ProjektBlock = () => {
     <section className="h-[100vh] relative ">
       <div className="relative w-full h-[45vh] bg-tertiary">
         <Image
-          src="/assets/background_top_orange.svg"
+          src="/assets/background_blob_orange.svg"
           fill
           alt="background top orange"
           className="object-cover"
