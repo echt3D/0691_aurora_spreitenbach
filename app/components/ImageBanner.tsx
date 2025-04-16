@@ -3,17 +3,13 @@ import Image from "next/image";
 type ImageBannerProps = {
   src: string;
   alt: string;
+  hasMargin: boolean;
 };
 
-const ImageBanner = ({ src, alt }: ImageBannerProps) => {
+const ImageBanner = ({ src, alt, hasMargin }: ImageBannerProps) => {
   return (
-    <section className="relative w-full h-screen -mt-36">
-      <Image
-        src={src}
-        layout="fill"
-        alt={alt}
-        className="object-cover"
-      />
+    <section className={`relative w-full h-screen ${hasMargin && "-mt-36"}`}>
+      <Image src={src} layout="fill" alt={alt} className="object-cover" />
     </section>
   );
 };

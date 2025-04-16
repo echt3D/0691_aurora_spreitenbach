@@ -21,7 +21,11 @@ export default function Home() {
       <GalleryBlock />
       <ContactBlock />
       <TextBanner text={text_banner_two} />
-      <ImageBanner src={image_banner.src} alt={image_banner.alt} />
+      <ImageBanner
+        src={image_banner.src}
+        alt={image_banner.alt}
+        hasMargin={true}
+      />
     </>
   );
 }

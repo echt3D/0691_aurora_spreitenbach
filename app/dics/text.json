@@ -21,6 +21,20 @@
       "alt": "aurora Spreitenbach Visualisierung 4"
     }
   },
+  "projekt": {
+    "hero": {
+      "lead": "Projekt",
+      "title": {
+        "one": "Raum für jede",
+        "two": "Lebensform:",
+        "three": "charmant, komfortabel, hell "
+      }
+    },
+    "image_banner": {
+      "src": "/visus/visu_4.jpg",
+      "alt":"aurora Spreitenbach Visualisierung 4"
+    }
+  },
   "header": [
     { "label": "Projekt", "link": "projekt" },
     { "label": "Lage", "link": "lage" },
