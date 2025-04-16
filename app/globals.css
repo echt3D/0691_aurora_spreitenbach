@@ -50,6 +50,11 @@
   border: green solid 2px;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  color: #d1643d !important;
+}
+
 @keyframes menuSlideIn {
   0% {
     transform: translateX(100vw);

@@ -27,7 +27,7 @@
       "title": {
         "one": "Raum für jede",
         "two": "Lebensform:",
-        "three": "charmant, komfortabel, hell "
+        "three": "charmant, komfortabel, hell"
       }
     },
     "image_banner_one": {
@@ -45,6 +45,26 @@
     "image_banner_two": {
       "src": "/visus/visu_3.jpg",
       "alt": "aurora Spreitenbach Visualisierung 3"
+    }
+  },
+  "lage": {
+    "hero": {
+      "lead": "Lage",
+      "title": {
+        "one": "Wohnen in",
+        "two": "Spreitenbach:",
+        "three": "schnell überall und gut vernetzt"
+      }
+    },
+    "image_banner_one": {
+      "src": "/visus/visu_1.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 1"
+    },
+    "text_block_one": {
+      "title": "Spreitenbach wächst – und damit die Möglichkeiten. ",
+      "text": {
+        "one": "Das Langäckerquartier vereint einfaches Wohnen mit natürlicher Erholung. Ob entspannen in den Bädern, shoppen in modernen Zentren, aktiv sein im Golfpark oder treffen im Kino – die Lage bietet Vielfalt."
+      }
     }
   },
 
@@ -149,6 +169,49 @@
     "label": "Google Maps öffnen",
     "link": "https://www.google.ch/maps/place/Bahnhofstrasse+59,+8957+Spreitenbach/@47.4233828,8.3600261,16z/data=!3m1!4b1!4m6!3m5!1s0x47901281e3e8e321:0x1ed7bd28893e524f!8m2!3d47.4233828!4d8.362601!16s%2Fg%2F11c1x985j5?entry=tts&g_ep=EgoyMDI1MDMwMi4wIPu8ASoASAFQAw%3D%3D"
   },
+  "slider": [
+    {
+      "title": "Bäder Baden",
+      "text": "Wellness, Spa und Erholung im historischen Thermalbad von Baden.",
+      "src": "/images/coverflow_1.jpg"
+    },
+    {
+      "title": "Cinemax Spreitenbach",
+      "text": "Kinoerlebnis mit aktuellen Blockbustern und komfortablen Sälen.",
+      "src": "/images/coverflow_2.jpg"
+    },
+    {
+      "title": "Golfpark Otelfingen",
+      "text": "Nur wenige Minuten entfernt für alle Golf-Liebhaber.",
+      "src": "/images/coverflow_3.jpg"
+    },
+    {
+      "title": "Trampolino Kinderparadies",
+      "text": "Indoor-Spielplatz für Familien und Kinder.",
+      "src": "/images/coverflow_4.jpg"
+    },
+    {
+      "title": "Limmat Uferweg",
+      "text": "Perfekt zum Joggen, Radfahren oder Spazieren in der Natur.",
+      "src": "/images/coverflow_5.jpg"
+    },
+    {
+      "title": "Umwelt Arena Schweiz",
+      "text": "Spannendes Ausflugsziel",
+      "src": "/images/coverflow_6.jpg"
+    },
+    {
+      "title": "Shoppi Tivoli",
+      "text": "Eines der grössten Einkaufszentren der Schweiz.",
+      "src": "/images/coverflow_7.jpg"
+    },
+    {
+      "title": " Sportzentrum Müliwis",
+      "text": " Fussballplätze, Sporthallen und vielseitige Trainingsmöglichkeiten.",
+      "src": "/images/coverflow_8.jpg"
+    }
+  ],
+
   "footer": {
     "company": "H&B Real Estate AG",
     "address": {
