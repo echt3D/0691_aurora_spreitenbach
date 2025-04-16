@@ -25,11 +25,11 @@ const ProjektBlock = () => {
           <div className=" top-0 md:top-30 3xl:top-60 xl:grid xl:grid-cols-2 gap-40">
             <aside className="flex flex-col xl:gap-8">
               <div>
-                <p className="text-h4_mobile xl:text-h4_desktop font-light">
+                <p className="text-h4_mobile xl:text-h4_desktop font-bold">
                   {lead}
                 </p>
                 <h2
-                  className="text-h2_mobile xl:text-h2_desktop hyphens-auto font-light"
+                  className="text-h2_mobile xl:text-h2_desktop hyphens-auto "
                   lang="de"
                 >
                   {title.one}{" "}

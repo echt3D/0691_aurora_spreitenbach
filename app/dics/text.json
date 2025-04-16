@@ -44,7 +44,11 @@
   "lage_block": {
     "lead": "Lage",
     "title": "Spreitenbach",
-    "text": "Spreitenbach wächst – und damit die Möglichkeiten. Das Langäckerquartier vereint einfaches Wohnen mit natürlicher Erholung. Ob entspannen in den Bädern, shoppen in modernen Zentren, aktiv sein im Golfpark oder treffen im Kino – die Lage bietet Vielfalt. Wer das Beste aus beiden Welten sucht – lebendig und entspannt –, findet es hier."
+    "text": "Spreitenbach wächst – und damit die Möglichkeiten. Das Langäckerquartier vereint einfaches Wohnen mit natürlicher Erholung. Ob entspannen in den Bädern, shoppen in modernen Zentren, aktiv sein im Golfpark oder treffen im Kino – die Lage bietet Vielfalt. Wer das Beste aus beiden Welten sucht – lebendig und entspannt –, findet es hier.",
+    "button": {
+      "label": "Zur Lage",
+      "link": "/lage"
+    }
   },
   "angebot_block": {
     "lead": "Angebot",
@@ -56,6 +60,18 @@
     "button": {
       "label": "Zum Angebot",
       "link": "/angebot"
+    }
+  },
+  "download_block": {
+    "lead": "Download",
+    "title": {
+      "one": "Jetzt gratis",
+      "two": "herunterladen"
+    },
+    "text": "Bei uns findest du alle wichtigen Informationen, wie «Aurora» einfaches Wohnen mit Weitblick und Wohlfühlatmosphäre vereint, kompakt aufbereitet. ",
+    "button": {
+      "label": "Zum Download",
+      "link": "/download"
     }
   },
   "sticker": { "text": "Neugierig geworden? Schreib uns gern!" },

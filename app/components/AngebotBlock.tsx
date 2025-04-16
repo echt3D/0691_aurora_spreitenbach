@@ -5,16 +5,16 @@ import Button from "./Button";
 const AngebotBlock = () => {
   const { lead, title, text, button } = t.angebot_block;
   return (
-    <section className="relative h-[110vh] flex  -mt-44 3xl:-mt-60">
+    <section className="relative h-[120vh] flex  -mt-44 3xl:-mt-64">
       <aside
         style={{ backgroundImage: "url(/assets/background_side.svg)" }}
         className="h-full w-1/2 bg-cover flex justify-center items-center "
       >
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half flex flex-col gap-8 mx-auto">
           <div>
-            <p className="text-h4_desktop ">{lead}</p>
+            <p className="text-h4_desktop font-bold">{lead}</p>
             <h2
-              className="text-h2_mobile xl:text-h2_desktop hyphens-auto font-light"
+              className="text-h2_mobile xl:text-h2_desktop hyphens-auto "
               lang="de"
             >
               {title.one}{" "}
