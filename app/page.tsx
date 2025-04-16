@@ -19,7 +19,7 @@ export default function Home() {
       <AngebotBlock />
       <DownloadBlock />
       <GalleryBlock />
-      <ContactBlock />
+      <ContactBlock color={"cream"} />
       <TextBanner text={text_banner_two} />
       <ImageBanner
         src={image_banner.src}

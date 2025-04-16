@@ -33,7 +33,7 @@ const Lage = () => {
         </aside>
       </div>
 
-      <div className="relative w-full h-[32vh] 3xl:h-[35vh] ">
+      <div className="relative w-full h-[32vh] 3xl:h-[35vh]">
         <Image
           fill
           src="/assets/background_bottom_cream.svg"

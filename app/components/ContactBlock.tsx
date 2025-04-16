@@ -3,22 +3,30 @@ import Button from "./Button";
 import Image from "next/image";
 import ContactPerson from "./ContactPerson";
 
-const ProjektBlock = () => {
+type ContactBlockProps = {
+  color: string;
+};
+
+const ContactBlock = ({ color }: ContactBlockProps) => {
   const { lead, title, text, button } = t.contact_block;
   return (
-    <section className="h-[100vh] relative -mt-100 3xl:-mt-130 ">
+    <section className="h-[100vh] relative -mt-90 3xl:-mt-130 ">
       <div className="relative w-full h-[45vh] ">
         <Image
-          src="/assets/background_blob_cream.svg"
+          src={`/assets/background_blob_${color}.svg`}
           fill
-          alt="background top cream"
+          alt={`background top ${color}`}
           className="object-cover"
         />
       </div>
       <div className="flex flex-col md:gap-24 absolute top-1/8 right-1/4 translate-x-1/2">
         <ContactPerson />
       </div>
-      <div className="bg-tertiary h-[70vh]"></div>
+      <div
+        className={` ${
+          color === "cream" ? "bg-tertiary" : "bg-secondary"
+        } h-[70vh]`}
+      ></div>
       <div className="absolute w-full top-1/2 -translate-y-1/2">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto flex flex-col xl:gap-12 3xl:gap-32">
           <div className="flex justify-end"></div>
@@ -52,4 +60,4 @@ const ProjektBlock = () => {
   );
 };
 
-export default ProjektBlock;
+export default ContactBlock;

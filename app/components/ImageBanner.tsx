@@ -8,7 +8,7 @@ type ImageBannerProps = {
 
 const ImageBanner = ({ src, alt, hasMargin }: ImageBannerProps) => {
   return (
-    <section className={`relative w-full h-screen ${hasMargin && "-mt-36"}`}>
+    <section className={`relative w-full h-screen  ${hasMargin && "-mt-44 3xl:-mt-64"}`}>
       <Image src={src} layout="fill" alt={alt} className="object-cover" />
     </section>
   );
