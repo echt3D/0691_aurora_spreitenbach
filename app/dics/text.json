@@ -74,6 +74,22 @@
       "link": "/download"
     }
   },
+  "gallery_block": {
+    "lead": "Galerie",
+    "title": {
+      "one": "Ein erster",
+      "two": "Blick",
+      "three": "auf dein neues Zuhause"
+    },
+    "text": {
+      "one": "Lass dich inspirieren",
+      "two": "Entdecke die sanierten Wohnräume mit ihren grosszügigen Balkonen und erhalte einen Eindruck von der modernen Architektur."
+    },
+    "button": {
+      "label": "Zur Galerie",
+      "link": "/galerie"
+    }
+  },
   "sticker": { "text": "Neugierig geworden? Schreib uns gern!" },
   "google_map_button": {
     "label": "Google Maps öffnen",

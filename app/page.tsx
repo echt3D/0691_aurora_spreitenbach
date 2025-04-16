@@ -3,6 +3,7 @@ import ProjektBlock from "./components/ProjektBlock";
 import TextBanner from "./components/TextBanner";
 import Lage from "./components/LageBlock";
 import AngebotBlock from "./components/AngebotBlock";
+import GalleryBlock from "./components/GalleryBlock";
 import Kontakt from "./sections/Kontakt";
 import TextBannerTwo from "./components/TextBannerTwo";
 import ImageBanner from "./components/ImageBanner";
@@ -18,9 +19,10 @@ export default function Home() {
       <Lage />
       <AngebotBlock />
       <DownloadBlock />
-      {/* <Kontakt />
+      <GalleryBlock />
+      <Kontakt />
       <TextBannerTwo />
-      <ImageBanner /> */}
+      <ImageBanner />
     </>
   );
 }

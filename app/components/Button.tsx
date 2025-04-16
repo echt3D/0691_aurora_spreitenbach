@@ -9,7 +9,7 @@ const Button = ({ label, link }: ButtonProps) => {
   return (
     <Link
       href={link}
-      className="w-fit bg-primary hover:bg-accent rounded-3xl py-2 px-4 duration-300 text-white text-center"
+      className="w-fit bg-primary hover:bg-accent rounded-3xl py-2 px-6 duration-300 text-white text-center"
     >
       {label}
     </Link>

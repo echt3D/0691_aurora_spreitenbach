@@ -7,7 +7,7 @@ const AngebotBlock = () => {
   return (
     <section className="relative h-[120vh] flex  -mt-44 3xl:-mt-64">
       <aside
-        style={{ backgroundImage: "url(/assets/background_side.svg)" }}
+        style={{ backgroundImage: "url(/assets/background_left_side.svg)" }}
         className="h-full w-1/2 bg-cover flex justify-center items-center "
       >
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half flex flex-col gap-8 mx-auto">
