@@ -3,11 +3,16 @@ import Image from "next/image";
 type TextBannerProps = {
   text: string;
   bgColor: string;
+  hasMargin: boolean;
 };
 
-const TextBanner = ({ text, bgColor }: TextBannerProps) => {
+const TextBanner = ({ text, bgColor, hasMargin }: TextBannerProps) => {
   return (
-    <div className="relative -mt-12 md:-mt-12 xl:-mt-0 z-20 overflow-hidden ">
+    <div
+      className={`relative -mt-12 md:-mt-12 z-20 overflow-hidden ${
+        hasMargin ? " xl:-mt-40" : "xl:-mt-0"
+      }`}
+    >
       <div className="md:hidden">
         <Image
           src="/assets/text-banner-mobile.svg"

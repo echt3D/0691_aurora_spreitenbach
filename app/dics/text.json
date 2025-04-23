@@ -82,7 +82,33 @@
     },
     "text_banner_two": "«Wer das Beste aus beiden Welten sucht – lebendig und entspannt –, findet es hier. »"
   },
-
+  "angebot": {
+    "hero": {
+      "lead": "Angebot",
+      "title": {
+        "one": "Dein Zuhause mit ",
+        "two": "Weitblick"
+      }
+    },
+    "image_banner_one": {
+      "src": "/visus/visu_2.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 2"
+    },
+    "text_block_one": {
+      "title": "Wohnungsangebot: Finde deine Traumwohnung",
+      "text": {
+        "one": "«Aurora» erhebt sich über den Strassen und bringt neues Licht in das historische Langäckerquartier. Ob kompakt oder grosszügig, in luftiger Höhe oder mit engem Bezug zum Gartenniveau – nutze die interaktive Übersicht, um dir einen schnellen Überblick über die passende Wohnung und ihre Verfügbarkeit zu verschaffen."
+      }
+    },
+    "parkplatz_block": {
+      "title": {
+        "one": "Wähle den passenden",
+        "two": "Parkplatz"
+      },
+      "text": "Bei «Aurora» stehen dir drei Parkplatztypen zur Verfügung – ganz nach deinen Bedürfnissen. Alle Varianten sind in grosser Zahl verfügbar. Die Optionen unterscheiden sich in den jeweiligen Zinssätzen. Hier findest du die aktuelle Preisliste:"
+    },
+    "text_banner_one": "«Hier vereinen sich Weitblick und Innovation mit moderner Behaglichkeit» "
+  },
   "header": [
     { "label": "Projekt", "link": "projekt" },
     { "label": "Lage", "link": "lage" },
