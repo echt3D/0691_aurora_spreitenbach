@@ -14,13 +14,13 @@ export default function Home() {
     <>
       <MainHero />
       <ProjektBlock />
-      <TextBanner text={text_banner_one} />
+      <TextBanner text={text_banner_one} bgColor={"#353535"} />
       <Lage />
       <AngebotBlock />
       <DownloadBlock />
       <GalleryBlock />
       <ContactBlock color={"cream"} />
-      <TextBanner text={text_banner_two} />
+      <TextBanner text={text_banner_two} bgColor={"#353535"} />
       <ImageBanner
         src={image_banner.src}
         alt={image_banner.alt}

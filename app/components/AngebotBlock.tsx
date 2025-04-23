@@ -5,7 +5,7 @@ import Button from "./Button";
 const AngebotBlock = () => {
   const { lead, title, text, button } = t.angebot_block;
   return (
-    <section className="relative h-[120vh] flex  -mt-44 3xl:-mt-64">
+    <section className="relative h-[120vh] flex  -mt-44 3xl:-mt-64 -z-20">
       <aside
         style={{ backgroundImage: "url(/assets/background_left_side.svg)" }}
         className="h-full w-1/2 bg-cover flex justify-center items-center "

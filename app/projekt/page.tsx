@@ -15,6 +15,7 @@ const Projekt = () => {
     text_block_one,
     text_banner_one,
     image_banner_two,
+    text_banner_two,
   } = t.projekt;
   return (
     <>
@@ -28,7 +29,7 @@ const Projekt = () => {
         <TextBlock title={text_block_one.title} text={text_block_one.text} />
         <DetailCards />
       </WaveWrapper>
-      <TextBanner text={text_banner_one} />
+      <TextBanner text={text_banner_one} bgColor={"#353535"} />
       <LageBlock />
       <ImageBanner
         src={image_banner_two.src}
@@ -36,6 +37,7 @@ const Projekt = () => {
         hasMargin={true}
       />
       <ContactBlock color={"orange"} />
+      <TextBanner text={text_banner_two} bgColor={"#8C3B1C"} />
     </>
   );
 };

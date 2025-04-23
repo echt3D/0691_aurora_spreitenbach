@@ -45,7 +45,8 @@
     "image_banner_two": {
       "src": "/visus/visu_3.jpg",
       "alt": "aurora Spreitenbach Visualisierung 3"
-    }
+    },
+    "text_banner_two": "«Wenn die Lichter der Stadt glänzen, spiegelt sich darin Neues.»"
   },
   "lage": {
     "hero": {
@@ -65,6 +66,19 @@
       "text": {
         "one": "Das Langäckerquartier vereint einfaches Wohnen mit natürlicher Erholung. Ob entspannen in den Bädern, shoppen in modernen Zentren, aktiv sein im Golfpark oder treffen im Kino – die Lage bietet Vielfalt."
       }
+    },
+    "map_block": {
+      "title": "Aurora Spreitenbach",
+      "locations": [
+        "Bäder Baden",
+        "Cinemax Spreitenbach",
+        "Golfpark Otelfingen",
+        "Trampolino Kinderparadies",
+        "Limmat Uferweg",
+        "Umwelt Arena Schweiz",
+        "Shoppi Tivoli",
+        "Hallenbad"
+      ]
     }
   },
 
