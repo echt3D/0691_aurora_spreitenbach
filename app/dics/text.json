@@ -109,6 +109,44 @@
     },
     "text_banner_one": "«Hier vereinen sich Weitblick und Innovation mit moderner Behaglichkeit» "
   },
+  "download": {
+    "hero": {
+      "lead": "Download",
+      "title": {
+        "one": "Weitere",
+        "two": "Einblicke",
+        "three": "erhalten"
+      }
+    },
+    "image_banner_one": {
+      "src": "/visus/visu_4.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 4"
+    },
+    "text_block_one": {
+      "title": "Bereit für Mehr – Kompakt zum Download",
+      "text": {
+        "one": "Bei uns findest du alle wichtigen Informationen, wie «Aurora» einfaches Wohnen mit Weitblick und Wohlfühlatmosphäre vereint, kompakt aufbereitet. Lade dir jetzt das Factsheet und den Kurzbaubeschrieb herunter und erfahre mehr über dein zukünftiges Zuhause."
+      }
+    },
+    "download_cards": [
+      {
+        "title": "Factsheets",
+        "text": "Auf einen Blick erhältst du alle Zahlen, Daten und Besonderheiten – von den Wohnungsgrössen bis zu den besonderen Vorzügen der Lage – übersichtlich zusammengefasst.",
+        "button": {
+          "label": "Herunterladen",
+          "link": "/documents/hi.pdf"
+        }
+      },
+      {
+        "title": "Kurzbaubeschrieb",
+        "text": "Um dir ein noch klareres Bild des Gebäudes zu geben, kannst du bei uns auch direkt einen Beschrieb der baulichen Merkmale herunterladen.",
+        "button": {
+          "label": "Herunterladen",
+          "link": "/documents/hi.pdf"
+        }
+      }
+    ]
+  },
   "header": [
     { "label": "Projekt", "link": "projekt" },
     { "label": "Lage", "link": "lage" },
