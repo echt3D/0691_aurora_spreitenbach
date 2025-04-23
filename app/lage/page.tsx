@@ -7,9 +7,12 @@ import DetailSlider from "../components/DetailSlider";
 import GoogleMapButton from "../components/GoogleMapButton";
 import MapBlock from "../components/MapBlock";
 import AngebotBlock from "../components/AngebotBlock";
+import TextBannerV2 from "../components/TextBannerV2";
+import ContactBlock from "../components/ContactBlock"
 
 const Lage = () => {
-  const { hero, image_banner_one, text_block_one, map_block } = t.lage;
+  const { hero, image_banner_one, text_block_one, map_block, text_banner_two } =
+    t.lage;
   return (
     <>
       <Hero lead={hero.lead} title={hero.title} />
@@ -27,6 +30,8 @@ const Lage = () => {
       </WaveWrapper>
       <MapBlock map={map_block} />
       <AngebotBlock />
+      <TextBannerV2 text={text_banner_two} />
+      <ContactBlock color={"orange"} />
     </>
   );
 };
