@@ -145,7 +145,8 @@
           "link": "/documents/hi.pdf"
         }
       }
-    ]
+    ],
+    "text_banner_one": "«Ein Zuhause, in dem der Tag mit Licht beginnt und die Nacht in angenehmer Atmosphäre endet.» "
   },
   "header": [
     { "label": "Projekt", "link": "projekt" },
