@@ -148,6 +148,44 @@
     ],
     "text_banner_one": "«Ein Zuhause, in dem der Tag mit Licht beginnt und die Nacht in angenehmer Atmosphäre endet.» "
   },
+  "gallery": {
+    "hero": {
+      "lead": "Galerie",
+      "title": {
+        "one": "Ein erster",
+        "two": "Blick",
+        "three": "auf dein neues Zuhause"
+      }
+    },
+    "image_banner_one": {
+      "src": "/visus/visu_3.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 3"
+    },
+    "text_block_one": {
+      "title": "Lass dich inspirieren",
+      "text": {
+        "one": "Entdecke die sanierten Wohnräume mit ihren grosszügigen Balkonen und erhalte einen Eindruck von der modernen Architektur. In der Galerie findest du Bilder, die zeigen, wie das Leben in «Aurora» aussieht – komfortabel und mit Raum für deine persönliche Entfaltung."
+      }
+    },
+    "images": [
+      {
+        "src": "/visus/visu_1.jpg",
+        "alt": "aurora Spreitenbach Visualisierung 1"
+      },
+      {
+        "src": "/visus/visu_2.jpg",
+        "alt": "aurora Spreitenbach Visualisierung 2"
+      },
+      {
+        "src": "/visus/visu_3.jpg",
+        "alt": "aurora Spreitenbach Visualisierung 3"
+      },
+      {
+        "src": "/visus/visu_4.jpg",
+        "alt": "aurora Spreitenbach Visualisierung 4"
+      }
+    ]
+  },
   "header": [
     { "label": "Projekt", "link": "projekt" },
     { "label": "Lage", "link": "lage" },
