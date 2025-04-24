@@ -184,7 +184,11 @@
         "src": "/visus/visu_4.jpg",
         "alt": "aurora Spreitenbach Visualisierung 4"
       }
-    ]
+    ],
+     "image_banner_two": {
+      "src": "/visus/visu_1.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 1"
+    }
   },
   "header": [
     { "label": "Projekt", "link": "projekt" },
