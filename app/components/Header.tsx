@@ -5,10 +5,14 @@ import { scrollToTop } from "../utils/scrollToTop";
 import { useState } from "react";
 import Menu from "./Menu";
 import t from "../dics/text.json";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
   const { header } = t;
+  const pathname = usePathname();
+  console.log("pathname", pathname);
+  console.log("header", header);
 
   return (
     <header className="h-header_mobile md:h-header bg-white shadow-md w-screen fixed top-0 z-30">
@@ -39,7 +43,10 @@ const Header = () => {
             {header.map((headerItem, i) => (
               <li key={i}>
                 <Link
-                  className="hover:bg-primary hover:text-white py-2 px-4 duration-300 rounded-3xl"
+                  className={`hover:bg-primary hover:text-white py-2 px-4 duration-300 rounded-3xl ${
+                    pathname === `/${headerItem.link}` &&
+                    "bg-primary text-white py-2 px-4 duration-300 rounded-3xl"
+                  }`}
                   href={`/${headerItem.link}`}
                 >
                   {headerItem.label}

@@ -185,11 +185,36 @@
         "alt": "aurora Spreitenbach Visualisierung 4"
       }
     ],
-     "image_banner_two": {
+    "image_banner_two": {
       "src": "/visus/visu_1.jpg",
       "alt": "aurora Spreitenbach Visualisierung 1"
     }
   },
+  "contact": {
+    "hero": {
+      "lead": "Kontakt",
+      "title": {
+        "two": "Interesse?",
+        "three": "Wage den ersten Schritt"
+      }
+    },
+    "image_banner_one": {
+      "src": "/visus/visu_3.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 3"
+    },
+    "text_block_one": {
+      "title": "Hast du dein neues Zuhause schon vor Augen? ",
+      "text": {
+        "one": "Hast du Fragen, Interesse oder brauchst du noch mehr Infos zu deiner neuen Wohnung? Wir freuen uns auf deine Kontaktaufnahme!"
+      }
+    },
+    "text_banner_one": "«Spreitenbach wächst – und mit ihm deine Möglichkeiten.»",
+    "image_banner_two": {
+      "src": "/visus/visu_4.jpg",
+      "alt": "aurora Spreitenbach Visualisierung 4"
+    }
+  },
+
   "header": [
     { "label": "Projekt", "link": "projekt" },
     { "label": "Lage", "link": "lage" },
