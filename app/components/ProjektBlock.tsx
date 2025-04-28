@@ -7,22 +7,22 @@ import Image from "next/image";
 const ProjektBlock = () => {
   const { lead, title, text, button } = t.project_block;
   return (
-    <section className="h-[100vh] relative ">
-      <div className="relative w-full h-[45vh] bg-tertiary">
+    <section className=" xl:h-[100vh] relative ">
+      <div className="relative w-full  h-[20vh] xl:h-[45vh] bg-tertiary">
         <Image
           src="/assets/background_blob_orange.svg"
           fill
           alt="background top orange"
-          className="object-cover"
+          className="object-cover "
         />
       </div>
-      <div className="bg-secondary h-[70vh]"></div>
+      <div className="bg-secondary h-[220vh] xl:h-[70vh]"></div>
       <div className="absolute w-full top-1/2 -translate-y-1/2">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto flex flex-col xl:gap-12 3xl:gap-32">
           <div className="flex justify-end">
             <Sticker />
           </div>
-          <div className=" top-0 md:top-30 3xl:top-60 xl:grid xl:grid-cols-2 gap-40">
+          <div className=" xl:grid xl:grid-cols-2 gap-40">
             <aside className="flex flex-col xl:gap-8">
               <div>
                 <p className="text-h4_mobile xl:text-h4_desktop font-bold">

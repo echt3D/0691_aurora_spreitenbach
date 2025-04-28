@@ -9,7 +9,7 @@ type TextBannerProps = {
 const TextBanner = ({ text, bgColor, hasMargin }: TextBannerProps) => {
   return (
     <div
-      className={`relative -mt-12 md:-mt-12 z-20 overflow-hidden ${
+      className={`relative -mt-12 z-20 overflow-hidden ${
         hasMargin ? " xl:-mt-40" : "xl:-mt-0"
       }`}
     >
@@ -33,7 +33,7 @@ const TextBanner = ({ text, bgColor, hasMargin }: TextBannerProps) => {
           />
         </svg>
       </div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3 text-center">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full  xl:w-1/3 text-center">
         <p className="text-white text-h2_mobile xl:text-h2_desktop text-center">
           {text}
         </p>
