@@ -5,7 +5,7 @@ const ContactPerson = () => {
   const { title, name, email, phone } = t.contact_person;
   return (
     <div className="flex flex-col">
-      <div className="relative w-profile_image_desktop h-profile_image_desktop self-center -mr-60 -mb-8">
+      <div className="relative w-profile_image_mobile h-profile_image_mobile xl:w-profile_image_desktop xl:h-profile_image_desktop self-center -mr-60 -mb-8">
         <Image
           src="/images/noemi_nagel.jpeg"
           layout="fill"

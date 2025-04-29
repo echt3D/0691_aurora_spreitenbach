@@ -10,8 +10,8 @@ type ContactBlockProps = {
 const ContactBlock = ({ color }: ContactBlockProps) => {
   const { lead, title, text, button } = t.contact_block;
   return (
-    <section className="h-[100vh] relative -mt-90 3xl:-mt-130 ">
-      <div className="relative w-full h-[45vh] ">
+    <section className="pt-20 pb-40 xl:h-[100vh]  flex flex-col-reverse xl:flex-col gap-4 relative xl:-mt-90 3xl:-mt-130 ">
+      <div className="relative w-full xl::h-[45vh] ">
         <Image
           src={`/assets/background_blob_${color}.svg`}
           fill
@@ -19,19 +19,19 @@ const ContactBlock = ({ color }: ContactBlockProps) => {
           className="object-cover"
         />
       </div>
-      <div className="flex flex-col md:gap-24 absolute top-1/8 right-1/4 translate-x-1/2">
+      <div className="flex flex-col-reverse xl:flex-col max-w-mobile md:max-w-tablet mx-auto xl:max-w-auto md:gap-24 xl:absolute xl:top-1/8 xl:right-1/4 xl:translate-x-1/2">
         <ContactPerson />
       </div>
       <div
         className={` ${
           color === "cream" ? "bg-tertiary" : "bg-secondary"
-        } h-[70vh]`}
+        } xl:h-[70vh]`}
       ></div>
-      <div className="absolute w-full top-1/2 -translate-y-1/2">
+      <div className="xl:absolute xl:w-full xl:top-1/2 xl:-translate-y-1/2">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto flex flex-col xl:gap-12 3xl:gap-32">
           <div className="flex justify-end"></div>
           <div className=" top-0 md:top-30 3xl:top-60 xl:grid xl:grid-cols-2 gap-40">
-            <div className="flex flex-col xl:gap-8">
+            <div className="flex flex-col gap-4 xl:gap-8">
               <div>
                 <p className="text-h4_mobile xl:text-h4_desktop font-bold text-accent">
                   {lead}

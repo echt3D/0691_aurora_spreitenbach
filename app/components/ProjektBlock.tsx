@@ -40,17 +40,17 @@ const ProjektBlock = () => {
                   {title.three}
                 </h2>
               </div>
-              <div className="hidden xl:block">
+              <div className="hidden xl:flex flex-col gap-8">
                 <p className="leading-10">
                   {text.one} <span className="font-bold">{text.two} </span>{" "}
                   {text.three}
                 </p>
-              </div>
               <Button label={button.label} link={button.link} />
+              </div>
             </aside>
             <aside className="flex flex-col md:gap-24 ">
               <Coverflow />
-              <div className="block xl:hidden">
+              <div className="flex flex-col gap-8 xl:hidden">
                 <p className="leading-10">
                   {text.one} <span className="font-bold">{text.two} </span>{" "}
                   {text.three}

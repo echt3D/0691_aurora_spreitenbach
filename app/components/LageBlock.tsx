@@ -7,7 +7,7 @@ import Button from "./Button";
 const Lage = () => {
   const { lead, title, text, button } = t.lage_block;
   return (
-    <section className="relative z-10 pt-40 3xl:pt-80">
+    <section className="relative z-10 pt-28 xl:pt-40 3xl:pt-80">
       <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl mx-auto xl:grid xl:grid-cols-2 flex flex-col gap-8 xl:gap-20">
         <div className="flex xl:hidden flex-col items-end ">
           <p className="text-h4_desktop font-bold">{lead}</p>
@@ -16,7 +16,7 @@ const Lage = () => {
           </span>
         </div>
         <CoverflowTwo />
-        <aside className="text-right flex flex-col gap-8 items-end">
+        <aside className="text-left xl:text-right flex flex-col gap-8 items-end">
           <div className="hidden xl:block">
             <p className="text-h4_mobile xl:text-h4_desktop font-bold">
               {lead}
@@ -26,14 +26,14 @@ const Lage = () => {
             </span>
           </div>
           <p className="leading-10">{text}</p>
-          <div className="flex flex-col gap-4 items-end w-full">
+          <div className="flex flex-col gap-4 items-start xl:items-end w-full">
             <Button label={button.label} link={button.link} />
             <GoogleMapButton />
           </div>
         </aside>
       </div>
 
-      <div className="relative w-full h-[32vh] 3xl:h-[35vh]">
+      <div className="relative w-full h-[20vh] xl:h-[32vh] 3xl:h-[35vh]">
         <Image
           fill
           src="/assets/background_bottom_cream.svg"

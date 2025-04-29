@@ -5,9 +5,9 @@ import Button from "./Button";
 const AngebotBlock = () => {
   const { lead, title, text, button } = t.gallery_block;
   return (
-    <section className="relative h-[130vh] flex  -mt-44 3xl:-mt-64 -z-10">
+    <section className="relative xl:h-[130vh] xl:flex -mt-20  xl:-mt-44 3xl:-mt-64 -z-10">
       <aside className="">
-        <div className="relative h-full w-[60vw] ">
+        <div className="relative h-screen xl:h-full w-screen xl:w-[60vw] ">
           <Image
             src="/visus/visu_3.jpg"
             fill
@@ -18,7 +18,7 @@ const AngebotBlock = () => {
       </aside>
       <aside
         style={{ backgroundImage: "url(/assets/background_right_side.svg)" }}
-        className="h-full w-1/2 bg-cover flex justify-center items-center absolute right-0"
+        className="h-screen xl:h-full w-full xl:w-1/2 bg-cover bg-secondary xl:bg-transparent flex justify-center items-center xl:absolute xl:right-0"
       >
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half flex flex-col gap-8 mx-auto">
           <div>

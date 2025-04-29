@@ -8,8 +8,8 @@ type DownloadBlockProps = {
 const DownloadBlock = ({ hasMargin }: DownloadBlockProps) => {
   const { lead, title, text, button } = t.download_block;
   return (
-    <section className="-mt-52 3xl:-mt-80">
-      <div className="relative w-full h-[32vh] 3xl:h-[35vh] ">
+    <section className="-mt-30 xl:-mt-52 3xl:-mt-80">
+      <div className="relative w-full h-[20vh] xl:h-[32vh] 3xl:h-[35vh]">
         <Image
           fill
           src="/assets/background_top_cream.svg"
@@ -19,7 +19,7 @@ const DownloadBlock = ({ hasMargin }: DownloadBlockProps) => {
       </div>
       <div
         className={`max-w-mobile md:max-w-tablet xl:max-w-desktop flex flex-col items-center justify-center gap-8 mx-auto text-center ${
-          hasMargin ? "h-[50vh]" : "h-auto"
+          hasMargin ? "xl:h-[50vh]" : "xl:h-auto"
         }`}
       >
         <div>
@@ -29,10 +29,10 @@ const DownloadBlock = ({ hasMargin }: DownloadBlockProps) => {
             <span className="bg-primary text-white px-2">{title.two}</span>
           </h2>
         </div>
-        <p className="w-1/2 ">{text}</p>
+        <p className="xl:w-1/2 ">{text}</p>
         <Button label={button.label} link={button.link} />
       </div>
-      <div className="relative w-full h-[32vh] 3xl:h-[35vh] ">
+      <div className="relative w-full h-[20vh] xl:h-[32vh] 3xl:h-[35vh]">
         <Image
           fill
           src="/assets/background_bottom_cream.svg"
