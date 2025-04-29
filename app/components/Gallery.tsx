@@ -11,7 +11,7 @@ const Gallery = () => {
 
   const { images } = t.gallery;
   return (
-    <div className="h-[80vh] ">
+    <div className="xl:h-[80vh] ">
       <div className="mx-auto max-w-mobile md:max-w-tablet xl:max-w-desktop">
         <SlideshowLightbox
           lightboxIdentifier="lightbox1"

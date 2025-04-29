@@ -10,8 +10,8 @@ type DownloadCardsProps = {
 
 const DownloadCards = ({ downloadCards }: DownloadCardsProps) => {
   return (
-    <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop flex flex-col items-center mx-auto ">
-      <ul className="grid grid-cols-2 gap-20 w-2/3 ">
+    <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop flex flex-col xl:items-center mx-auto overflow-scroll">
+      <ul className="px-2 xl:px-0 w-[140vw] grid grid-cols-2 gap-12 xl:gap-20 xl:w-2/3 ">
         {downloadCards.map((downloadCard, i) => (
           <li
             key={i}
