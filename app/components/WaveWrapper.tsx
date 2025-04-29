@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WaveWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
-    <section className="-mt-20 flex flex-col gap-20 ">
+    <section className="-mt-20 flex flex-col gap-8 xl:gap-20 ">
       <div className="relative w-full h-[17vh] 3xl:h-[20vh]">
         <Image
           fill

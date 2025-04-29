@@ -13,7 +13,14 @@ const DetailSlider = () => {
       modules={[Navigation]}
       className="mySwiper max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto "
       loop={true}
-      slidesPerView={3}
+      breakpoints={{
+        576: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+      }}
       spaceBetween={50}
     >
       {t.slider.map((detail, i) => (
