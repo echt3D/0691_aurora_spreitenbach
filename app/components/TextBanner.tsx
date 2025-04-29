@@ -37,7 +37,7 @@ const TextBanner = ({ text, bgColor, hasMargin }: TextBannerProps) => {
           />
         </svg>
       </div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full  xl:w-1/3 text-center">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-mobile mx-auto xl:w-1/3 text-center">
         <p className="text-white text-h2_mobile xl:text-h2_desktop text-center">
           {text}
         </p>

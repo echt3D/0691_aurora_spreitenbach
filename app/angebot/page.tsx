@@ -26,7 +26,7 @@ const Angebot = () => {
       />
       <WaveWrapper>
         <TextBlock title={text_block_one.title} text={text_block_one.text} />
-        <section className="bg-tertiary flex justify-center items-center h-[80vh] text-5xl -mt-30">
+        <section className="bg-tertiary flex justify-center items-center h-[40vh] xl:h-[80vh] text-5xl -mt-30">
           ISOMETRIE
         </section>
       </WaveWrapper>

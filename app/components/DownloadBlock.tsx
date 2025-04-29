@@ -9,7 +9,7 @@ const DownloadBlock = ({ hasMargin }: DownloadBlockProps) => {
   const { lead, title, text, button } = t.download_block;
   return (
     <section className="-mt-30 xl:-mt-52 3xl:-mt-80">
-      <div className="relative w-full h-[20vh] xl:h-[32vh] 3xl:h-[35vh]">
+      <div className="relative w-full h-[32vh] 3xl:h-[35vh]">
         <Image
           fill
           src="/assets/background_top_cream.svg"
@@ -19,7 +19,7 @@ const DownloadBlock = ({ hasMargin }: DownloadBlockProps) => {
       </div>
       <div
         className={`max-w-mobile md:max-w-tablet xl:max-w-desktop flex flex-col items-center justify-center gap-8 mx-auto text-center ${
-          hasMargin ? "xl:h-[50vh]" : "xl:h-auto"
+          hasMargin ? " xl:h-[50vh]" : "xl:h-auto"
         }`}
       >
         <div>
