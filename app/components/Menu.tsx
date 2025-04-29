@@ -1,4 +1,5 @@
 import Link from "next/link";
+import t from "../dics/text.json";
 
 type MenuProps = {
   openMenu: boolean;
@@ -6,7 +7,7 @@ type MenuProps = {
 };
 
 const Menu = ({ openMenu, setOpenMenu }: MenuProps) => {
-  const navItems = ["Projekt", "Lage", "Kontakt"];
+  const { header } = t;
 
   return (
     <section
@@ -15,15 +16,15 @@ const Menu = ({ openMenu, setOpenMenu }: MenuProps) => {
       }`}
     >
       <nav className="">
-        <ul className="text-gap-12 max-w-mobile mx-auto flex flex-col gap-8">
-          {navItems.map((navItem, i) => (
+        <ul className=" max-w-mobile mx-auto flex flex-col gap-4">
+          {header.map((navItem, i) => (
             <li key={i}>
               <Link
-                className="text-accent text-h1_mobile"
-                href={`#${navItem}`}
+                className="text-accent text-h2_mobile"
+                href={`${navItem.link}`}
                 onClick={() => setOpenMenu(false)}
               >
-                {navItem}
+                {navItem.label}
               </Link>
             </li>
           ))}

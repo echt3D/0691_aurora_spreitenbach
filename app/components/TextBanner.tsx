@@ -10,12 +10,16 @@ const TextBanner = ({ text, bgColor, hasMargin }: TextBannerProps) => {
   return (
     <div
       className={`relative -mt-12 z-20 overflow-hidden ${
-        hasMargin ? " xl:-mt-40" : "xl:-mt-0"
+        hasMargin ? "-mt-28 xl:-mt-40" : "xl:-mt-0"
       }`}
     >
       <div className="md:hidden">
         <Image
-          src="/assets/text-banner-mobile.svg"
+          src={`/assets/${
+            bgColor === "#353535"
+              ? "text-banner-mobile.svg"
+              : "text-banner-mobile_orange.svg"
+          }`}
           width={600}
           height={600}
           alt="text banner mobile bg"

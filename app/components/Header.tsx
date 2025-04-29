@@ -11,8 +11,6 @@ const Header = () => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
   const { header } = t;
   const pathname = usePathname();
-  console.log("pathname", pathname);
-  console.log("header", header);
 
   return (
     <header className="h-header_mobile md:h-header bg-white shadow-md w-screen fixed top-0 z-30">
