@@ -14,10 +14,13 @@ const DetailSlider = () => {
       className="mySwiper max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto "
       loop={true}
       breakpoints={{
-        576: {
+        384: {
           slidesPerView: 1,
         },
         768: {
+          slidesPerView: 2,
+        },
+        1024: {
           slidesPerView: 3,
         },
       }}

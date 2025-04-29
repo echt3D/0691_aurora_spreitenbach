@@ -7,7 +7,7 @@ type MapBlockProps = {
 const MapBlock = ({ map }: MapBlockProps) => {
   return (
     <section
-      className="relative w-screen h-[130vh] 3xl:h-[145vh] -mt-24 3xl:-mt-36 -z-10 bg-cover object-bottom"
+      className="relative w-screen h-[130vh]  3xl:h-[145vh] -mt-24 3xl:-mt-36 -z-10 bg-cover object-bottom"
       style={{ backgroundImage: "url(/images/map.png)" }}
     >
       <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full h-full mx-auto flex items-center">

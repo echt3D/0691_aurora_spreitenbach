@@ -8,7 +8,7 @@ const ContactFormBlock = () => {
 
   return (
     <section className="-mt-20">
-      <div className="relative w-full h-[27vh] 3xl:h-[20vh]">
+      <div className="relative w-full h-[27vh] 3xl:h-[32vh]">
         <Image
           fill
           src="/assets/background_top_drop_orange.svg"

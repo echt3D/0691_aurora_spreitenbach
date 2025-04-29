@@ -5,10 +5,10 @@ import Button from "./Button";
 const AngebotBlock = () => {
   const { lead, title, text, button } = t.angebot_block;
   return (
-    <section className="relative xl:h-[120vh] xl:flex -mt-28  md:-mt-44 3xl:-mt-64 -z-20">
+    <section className="relative  xl:h-[120vh] xl:flex -mt-20 sm:-mt-40  md:-mt-54 3xl:-mt-64 -z-20">
       <aside
         style={{ backgroundImage: "url(/assets/background_left_side.svg)" }}
-        className="h-full w-full xl:w-1/2 bg-cover flex justify-center items-center pb-20 pt-40 "
+        className="h-full w-full xl:w-1/2 bg-cover flex justify-center items-center pb-20 pt-40 sm:pt-52 xl:pt-20 xl:pb-40 3xl:pt-12"
       >
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop_half flex flex-col gap-8 mx-auto ">
           <div>
@@ -28,8 +28,8 @@ const AngebotBlock = () => {
           <Button label={button.label} link={button.link} />
         </div>
       </aside>
-      <aside className="xl:absolute h-full right-0">
-        <div className="relative h-screen w-full xl:w-[60vw] -z-10">
+      <aside className="xl:absolute h-full right-0 ">
+        <div className="relative h-screen xl:h-full w-full xl:w-[60vw] -z-10">
           <Image
             src="/visus/visu_2.jpg"
             fill

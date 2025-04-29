@@ -1,7 +1,7 @@
 const DetailCards = () => {
   return (
     <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop flex flex-col xl:items-center mx-auto overflow-scroll">
-      <div className="w-[200vw] xl:w-full grid grid-cols-3 gap-12 xl:gap-20 px-2 xl:px-0">
+      <div className="w-[200vw] md:w-[120vw] xl:w-full grid grid-cols-3 gap-12 xl:gap-20 p-2">
         <div className=" bg-white rounded-2xl flex flex-col items-center justify-center text-center gap-6 mt-2 px-8 py-12 shadow-custom">
           <p className="text-h3_desktop text-accent">
             Erstbezug:

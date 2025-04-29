@@ -8,8 +8,8 @@ type DownloadBlockProps = {
 const DownloadBlock = ({ hasMargin }: DownloadBlockProps) => {
   const { lead, title, text, button } = t.download_block;
   return (
-    <section className="-mt-30 xl:-mt-52 3xl:-mt-80">
-      <div className="relative w-full h-[32vh] 3xl:h-[35vh]">
+    <section className="-mt-30 md:-mt-52 3xl:-mt-80">
+      <div className="relative w-full h-[32vh] sm:h-[20vh] md:h-[20vh] xl:h-[32vh] 3xl:h-[35vh]">
         <Image
           fill
           src="/assets/background_top_cream.svg"
@@ -32,7 +32,7 @@ const DownloadBlock = ({ hasMargin }: DownloadBlockProps) => {
         <p className="xl:w-1/2 ">{text}</p>
         <Button label={button.label} link={button.link} />
       </div>
-      <div className="relative w-full h-[20vh] xl:h-[32vh] 3xl:h-[35vh]">
+      <div className="relative w-full h-[20vh] sm:h-[12vh]  md:h-[20vh] xl:h-[32vh] 3xl:h-[35vh]">
         <Image
           fill
           src="/assets/background_bottom_cream.svg"

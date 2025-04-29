@@ -17,7 +17,7 @@ const Hero = ({ lead, title }: HeroProps) => {
           {title.three}
         </h1>
       </div>
-      <div className="relative w-full h-[17vh] 3xl:h-[20vh]">
+      <div className="relative w-full h-[12vh] md:h-[5vh] xl:h-[17vh]  3xl:h-[20vh]">
         <Image
           fill
           src="/assets/background_wave_bottom_cream.svg"

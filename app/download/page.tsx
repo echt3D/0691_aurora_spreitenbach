@@ -31,7 +31,7 @@ const Download = () => {
       <TextBanner
         text={text_banner_one}
         bgColor={"#353535"}
-        hasMargin={false}
+        hasMargin={true}
       />
       <GalleryBlock />
       <ContactBlock color="cream" />

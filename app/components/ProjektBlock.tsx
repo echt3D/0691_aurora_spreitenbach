@@ -16,7 +16,7 @@ const ProjektBlock = () => {
           className="object-cover "
         />
       </div>
-      <div className="bg-secondary h-[220vh] xl:h-[70vh]"></div>
+      <div className="bg-secondary h-[200vh] sm:h-[160vh] md:h-[90vh] xl:h-[70vh]"></div>
       <div className="absolute w-full top-1/2 -translate-y-1/2">
         <div className="max-w-mobile md:max-w-tablet xl:max-w-desktop 3xl:max-w-desktop-xl w-full mx-auto flex flex-col xl:gap-12 3xl:gap-32">
           <div className="flex justify-end">
@@ -45,7 +45,7 @@ const ProjektBlock = () => {
                   {text.one} <span className="font-bold">{text.two} </span>{" "}
                   {text.three}
                 </p>
-              <Button label={button.label} link={button.link} />
+                <Button label={button.label} link={button.link} />
               </div>
             </aside>
             <aside className="flex flex-col md:gap-24 ">

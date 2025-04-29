@@ -10,7 +10,7 @@ const TextBanner = ({ text, bgColor, hasMargin }: TextBannerProps) => {
   return (
     <div
       className={`relative -mt-12 z-20 overflow-hidden ${
-        hasMargin ? "-mt-28 xl:-mt-40" : "xl:-mt-0"
+        hasMargin ? "xl:-mt-28" : "xl:-mt-0"
       }`}
     >
       <div className="md:hidden">
@@ -37,7 +37,7 @@ const TextBanner = ({ text, bgColor, hasMargin }: TextBannerProps) => {
           />
         </svg>
       </div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-mobile mx-auto xl:w-1/3 text-center">
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-mobile md:max-w-tablet xl:max-w-desktop text-center">
         <p className="text-white text-h2_mobile xl:text-h2_desktop text-center">
           {text}
         </p>
