@@ -7,6 +7,7 @@ import ParkplatzBlock from "../components/ParkplatzBlock";
 import TextBanner from "../components/TextBanner";
 import ContactBlock from "../components/ContactBlock";
 import DownloadBlock from "../components/DownloadBlock";
+import IsometrieBlock from "../components/IsometrieBlock";
 
 const Angebot = () => {
   const {
@@ -26,9 +27,7 @@ const Angebot = () => {
       />
       <WaveWrapper>
         <TextBlock title={text_block_one.title} text={text_block_one.text} />
-        <section className="bg-tertiary flex justify-center items-center h-[40vh] xl:h-[80vh] text-5xl -mt-30">
-          ISOMETRIE
-        </section>
+        <IsometrieBlock />
       </WaveWrapper>
       <ParkplatzBlock
         title={parkplatz_block.title}

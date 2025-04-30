@@ -140,7 +140,7 @@ const Form = () => {
           <p className="font-bold ">
             Bitte vermerke, an welcher Wohnung du interessiert bist:
           </p>
-          <div className="flex flex-col xl:flex-row gap-4 xl:gap-0 xl:justify-between">
+          <div className="flex flex-col md:flex-row gap-4 xl:gap-0 xl:justify-between">
             <div className="flex items-start gap-2">
               <input
                 id="additional_info"
